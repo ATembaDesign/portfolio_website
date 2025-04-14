@@ -23,42 +23,40 @@ body {
     line-height: 1.4;
 }
 
+
+    
+
+
 h1 {
-color: black;
+color: #FFFFFF;
 font-size: 2.75em;
 }
 
-h1.tagline {
-    color: black;
-    font-size: 24px;
-    text-align: center;
-   }
 
-   #hero {
-    background-color: #6c8b66;
-    padding: 20 px 0;
-    display: inline-block;
-    width: 100%;
-   }
+  
 
    h1.topic {
+    color: #000000;
     font-size: 16px;
+    text-align: center;
     
    }
 
    
 h1.prototype {
-    font-size: 16px;
+    color: #000000;
+    font-size: 18px;
     font-weight: 400;
     
    }
 
 h2 {
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     font-style: italic;
     line-height: 1.4;
+    text-align: center;
 }
 
 h2.topic {
@@ -69,12 +67,85 @@ h2.topic {
 
 
    h2.connect {
-    color: black;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+    background: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
    }
 
-   
+   h1.tagline {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 5px;
 
+   }
+
+
+
+   #hero {
+    background-color: #000000;
+    text-align: right;
+    letter-spacing: 5px;
+    line-height: 1.0;
+    padding: 20 px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+ 
+    display: inline-block;
+    width: 100%;
+   }
+
+   nav > ul> {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+   #bio{
+    background-color: #f1890171;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5px;
+   }
+
+   #resume{
+    background-color: #ffffff;
+    line-height: 1.4;
+   }
+  
+   #work{
+    background-color: #f1890171;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+
+   #work2{
+    background-color: #f1890171;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+   }
+
+  #contact {
+    background-color: none;
+    color: #000000;
+    margin-top: 10px;
+   
+  }
+
+#about{
+
+background-color: #f1890171;
+text-align: left;
+padding-top: 10px;
+padding-bottom: 10px;
+    
+}
 
 img {
     width: 100%;
@@ -92,7 +163,6 @@ text-decoration: none;
 text-decoration: none;
   }
 
-  
 
 
   .button {
@@ -135,42 +205,48 @@ text-decoration: none;
         padding: 15px;
     }
 
+    .footer-icon-link{
+        color: aqua;
+    }
+#netrack{
+    background-color: #f1890171;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+   
+    
 
     /* Layout Styling*/
 
     .container{
         padding: 0 15px;
+        max-width: 1200px;
     }
 
     .row{
         margin: 25px;
+    
     }
 
    
 
-    header{
-background-color: #6c8b66;
+header{
+background-color: #FFFFFF;
 text-align: center;
 list-style-type: none;
 padding: 10px;
-margin: auto;
-width: [object Object]px; 
-	height: [object Object]px; 
-	background: #F8F8F8; 
-	border: solid #BDBDBD 1px; 
-	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
-	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
-	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+margin: 10px;
+border: 1px solid #000000;
+}
 
-    position: fixed;
-
-    }
-
-    main{
-        padding-top: 197px;
+   main{
+    padding-top: 5px;
         width: 100%;
     }
     
+
 
 
 nav > ul> {
@@ -187,17 +263,22 @@ nav > ul> li {
 nav > ul> li a{
     padding: 0 15;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #F18701;
+    font-weight: 400;
+    color: #000000;
     width: 100%;
 }
 
 nav > ul> li a:hover{
-    color: #ffffff;
+    color: #F18701;
 }
 
 
 .logo{
     max-width: 250px;
     text-align: center;
+    
+}
+
+.row {
+    text-align: left;
 }
