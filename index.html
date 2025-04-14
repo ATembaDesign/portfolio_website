@@ -15,55 +15,63 @@
 
 <body>
     <header>
-        <img src="img/logo.jpg" />
-
-        <nav>
-            <ul>
-                <li><a href="index.html" class="my_work">Work</a></li>
-                <li><a href="about.html" class="my_about">About</a></li>
-                <li><a href="#contact" class="my_contacts">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="img/logo_new.jpg" />
+        </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav">Work</a></li>
+                    <li><a href="about.html" class="nav">About</a></li>
+                    <li><a href="#contact" class="nav">Contact</a></li>
+                </ul>
+            </nav>
     </header>
-    <div>
-                <h1 class="hero">UI Designer based in Berlin</h1>
+<div id="hero">
+    
+        <div class="container">
+        
+                <h1 class="tagline"> UI Designer based in Berlin</h1>
     </div>
+</div>
 
     <main>
-        <div>
-            <div>
+        <div id="work">
+        <div class="container">
+            
                 <h2>Game Cache</h2>
-            </div>
+        <div class="row">
+            
             <p>A gaming app where users can view and add games to a saved collection
                 create communities and share gaming tips and reviews.<br><br>
-                <a href="game_cache.html" class="button">View Study</a>
+                <a href="game_cache.html" class="button">View Study</a></p>
                 
             
-            
-            </p>
             <picture>
 
                 <source srcset="img/ashley_temba 1-1/game_cache/1x/600px/main_image.jpg" media="(max-width:767px)">
                 <img src="img/ashley_temba 1-1/game_cache/2x/1200px/main_image.jpg" alt="App Image">
             </picture>
+        </div>
 
             <div>
-                <div>
+                
                     <h2> Net Track</h2>
-                </div>
+                <div class="row">
                 <p> A money savings app geared towards users that starting out savings goals for vacations, special
                     events or future securities.<br><br>
-                    <a href="net_track.html" class="button">View Study</a>
-                </p>
+                    <a href="net_track.html" class="button">View Study</a></p>
                 <picture>
                     <source srcset="img/ashley_temba 1-1/netrack/600px/1x/main_image.jpg" media="(max-width:767px)">
                     <img src="img/ashley_temba 1-1/netrack/1200px/2x/main_image.jpg" alt="My Image">
                 </picture>
             </div>
 
+        </div>
+
 
             <footer id="contact" class="footer-icon-link" href="url">
-                <div>
+                <div class="container">
 
                     <h2 class="connect">Lets Stay Connected!</h2> <br>
 
@@ -93,6 +101,8 @@
                 </div>
             </footer>
 
+
+        </div>
 
         </div>
     </main>
