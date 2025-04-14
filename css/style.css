@@ -28,9 +28,17 @@ color: black;
 font-size: 2.75em;
 }
 
-h1.hero {
+h1.tagline {
     color: black;
     font-size: 24px;
+    text-align: center;
+   }
+
+   #hero {
+    background-color: #6c8b66;
+    padding: 20 px 0;
+    display: inline-block;
+    width: 100%;
    }
 
    h1.topic {
@@ -127,3 +135,69 @@ text-decoration: none;
         padding: 15px;
     }
 
+
+    /* Layout Styling*/
+
+    .container{
+        padding: 0 15px;
+    }
+
+    .row{
+        margin: 25px;
+    }
+
+   
+
+    header{
+background-color: #6c8b66;
+text-align: center;
+list-style-type: none;
+padding: 10px;
+margin: auto;
+width: [object Object]px; 
+	height: [object Object]px; 
+	background: #F8F8F8; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ;
+
+    position: fixed;
+
+    }
+
+    main{
+        padding-top: 197px;
+        width: 100%;
+    }
+    
+
+
+nav > ul> {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav > ul> li {
+    display: inline-block;
+   
+}
+
+nav > ul> li a{
+    padding: 0 15;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #F18701;
+    width: 100%;
+}
+
+nav > ul> li a:hover{
+    color: #ffffff;
+}
+
+
+.logo{
+    max-width: 250px;
+    text-align: center;
+}
