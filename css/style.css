@@ -6,19 +6,10 @@ Tertiary Color (White):#ffffff;
 */
 
 
-header {
-    background-color: #ffffff;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.4;
-}
-
-
-
 body {
     background-color: white;
     font-family: roboto, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 1.4;
 }
@@ -81,7 +72,10 @@ h2.topic {
     font-size: 20px;
     text-align: center;
     letter-spacing: 5px;
-
+    line-height: 1.8;
+   }
+   h1.tagline span {
+    display:block;
    }
 
 
@@ -122,6 +116,7 @@ h2.topic {
     background-color: #f1890171;
     padding-top: 10px;
     padding-bottom: 10px;
+
    }
 
    #work2{
@@ -130,6 +125,7 @@ h2.topic {
     padding-bottom: 10px;
     margin-top: 10px;
    }
+
 
   #contact {
     background-color: none;
@@ -151,7 +147,11 @@ img {
     width: 100%;
   }
 
-  
+  a{ 
+    color: rgb(21, 61, 61);
+  }
+
+
 
   a:hover{
 color: #F18701;
@@ -184,7 +184,7 @@ text-decoration: none;
     }
 
     .button.resume{
-        background-color: rgb(179, 195, 179);
+        background-color: rgb(21, 61, 61);
         font-size: 16px;
     font-weight: 400;
     color: #ffffff;
@@ -205,9 +205,7 @@ text-decoration: none;
         padding: 15px;
     }
 
-    .footer-icon-link{
-        color: aqua;
-    }
+
 #netrack{
     background-color: #f1890171;
     padding-top: 10px;
@@ -229,6 +227,11 @@ text-decoration: none;
         margin: 25px;
     
     }
+    .row:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
 
    
 
@@ -236,6 +239,7 @@ header{
 background-color: #FFFFFF;
 text-align: center;
 list-style-type: none;
+word-spacing: 40px;
 padding: 10px;
 margin: 10px;
 border: 1px solid #000000;
@@ -281,4 +285,40 @@ nav > ul> li a:hover{
 
 .row {
     text-align: left;
+}
+
+/*Medium devices (640px and larger)*/
+
+@media only screen and (min-width:640px) {
+    header{
+        text-align: unset;
+        padding: 20px 0 13px;
+    }
+
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
+
+    col-md-6 {
+        width: 50%;
+    }
+    
+    [class*="col-"] {
+        float: left;
+      }
+
+}
+
+/*Large devices (1024px or larger)*/
+
+@media only screen and (min-width:1024px){
+    
+}
+
+/*X-Large devices (1440px or larger)*/
+
+@media only screen and (min-width:1440px){
+    
 }
