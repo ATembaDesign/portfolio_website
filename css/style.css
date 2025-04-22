@@ -31,8 +31,10 @@ font-size: 2.75em;
 
    h1.topic {
     color: #000000;
-    font-size: 16px;
-    text-align: center;
+    font-size: 18px;
+    text-align: left;
+    padding: auto;
+    margin: 10px;
     
    }
 
@@ -45,8 +47,8 @@ h1.prototype {
    }
 
 h2 {
-    color: black;
-    font-size: 18px;
+    color: none;
+    font-size: 16px;
     font-weight: 600;
     font-style: italic;
     line-height: 1.4;
@@ -56,15 +58,18 @@ h2 {
 h2.topic {
     font-size: 16px;
     color: darkolivegreen;
+    text-align: left;
     
    }
 
 
    h2.connect {
-    color: #ffffff;
-    font-size: 22px;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 8px;
     text-align: center;
-    background: #000000;
+    background: none;
     padding-top: 20px;
     padding-bottom: 20px;
    
@@ -108,12 +113,17 @@ h2.topic {
     padding: 20px;
     margin: 0 auto;
     margin-top: 5px;
+    
    }
 
    #resume{
     background-color: #ffffff;
     line-height: 1.4;
    }
+
+
+
+  
   
    #work{
     background-color: #f1890171;
@@ -129,13 +139,22 @@ h2.topic {
     margin-top: 10px;
    }
 
-
-  #contact {
-    background-color: none;
-    color: #000000;
+   #work3{
+    background-color: #f1890171;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 10px;
-   
-  }
+   }
+ 
+
+   #contact {
+    background-color: none;
+    display: inline-block;
+    
+    
+
+
+   }
 
 #about{
 
@@ -148,7 +167,42 @@ padding-bottom: 10px;
 
 img {
     width: 100%;
+    
+max-width: 100%;
+height: auto;
   }
+
+
+@keyframes color-change {
+    0% {fill: #d03816;}
+    25% {fill: #ffffff;}
+    75% {fill:#0e3aea}
+    100% {fill:#000000}
+}
+
+
+#Layer_1{
+    animation-duration: 8s;
+    animation-name: color-change;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+#Layer_1{
+    transform:rotate(360deg);
+    transition: 8s;
+    transition-delay: 2s;
+     }
+
+
+      
+
+
+
+
+
 
   a{ 
     color: rgb(21, 61, 61);
@@ -169,6 +223,7 @@ text-decoration: none;
 
   .button {
     background-color: rgb(21, 61, 61);
+    align-content: center;
     font-size: 16px;
     text-decoration: none;
     font-weight: 400;
@@ -176,24 +231,29 @@ text-decoration: none;
     padding: 15px;
     border-radius: 3px;
     border-bottom: 20x #F18701;
-    transition: 0.45s opacity;}
+    transition-duration: 1s;
+    transition-property: opacity .1;
+
+
+}
 
     .button:hover{
-        opacity: 1.0;
-        background-color: #F18701;
+       background-color: #F18701;
         color: #ffffff;
         font-weight: 400;
+
     }
 
     .button.resume{
-        background-color: rgb(21, 61, 61);
-        font-size: 16px;
+    background-color: rgb(21, 61, 61);
     font-weight: 400;
     color: #ffffff;
     padding: 7px;
     border-radius: 6px;
     border-bottom: 20x #F18701;
-    transition: 0.45s opacity;}
+    transition-duration: 1s;
+    transition-property: opacity .1;
+}
     
 
     .button.resume:hover{
@@ -232,8 +292,7 @@ text-decoration: none;
     }
 
 
-
-   
+      
 
 header{
 background-color: #FFFFFF;
@@ -295,6 +354,7 @@ nav > ul> li a:hover{
     header{
         text-align: unset;
         padding: 20px 0 13px;
+    
     }
 
     nav {
@@ -303,14 +363,16 @@ nav > ul> li a:hover{
         margin-top: 4px;
     }
 
+
   .container{
     display: blocK;
     margin: 0 auto;
   }
+
     
+
     [class*="col-"] {
         float: left;
-        padding: auto;
       }
 
       .row:after {
@@ -342,6 +404,7 @@ nav > ul> li a:hover{
     header{
         text-align: unset;
         padding: 20px 0 13px;
+        
     }
 
    
@@ -358,6 +421,7 @@ nav > ul> li a:hover{
     display: blocK;
     margin: 0 auto;
   }
+
     
     [class*="col-"] {
         float: left;
@@ -371,12 +435,12 @@ nav > ul> li a:hover{
       }
 
   .col-lg-5  {
-        width: 38%;
+        width: 58%;
         padding-right: 2%;
 
 
 }
-.col-lg-5:last-child:last-child {
+.col-lg-5:last-child {
     padding-left: 2%;
     padding-right: 0%;
 
@@ -384,7 +448,7 @@ nav > ul> li a:hover{
 }
 
 .col-lg-7  {
-    width: 38%;
+    width: 58%;
     padding-right: 2%;
 
 
