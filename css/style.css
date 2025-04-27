@@ -146,16 +146,13 @@ h2.topic {
     margin-top: 10px;
    }
  
-
-   #contact {
-    background-color: none;
-    display: inline-block;
     
-    
+    footer {
+        text-align: center;
+        }
 
 
-   }
-
+   
 #about{
 
 background-color: #f1890171;
