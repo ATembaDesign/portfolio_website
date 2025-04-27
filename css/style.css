@@ -23,7 +23,7 @@ body {
 
 h1 {
 color: #FFFFFF;
-font-size: 2.75em;
+font-size: 20px;
 }
 
 
@@ -34,7 +34,6 @@ font-size: 2.75em;
     font-size: 18px;
     text-align: left;
     padding: auto;
-    margin: 10px;
     
    }
 
@@ -149,8 +148,11 @@ h2.topic {
     
     footer {
         text-align: center;
-        }
+                }
 
+        .icons {
+            margin: 0 10px;
+        }
 
    
 #about{
@@ -169,6 +171,27 @@ max-width: 100%;
 height: auto;
   }
 
+
+  .flex-example {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    
+     }
+
+  .col {
+    margin: 20px;
+  }
+
+ 
+
+  topic-group{
+    margin-right: 10px;
+  }
 
 @keyframes color-change {
     0% {fill: #d03816;}
@@ -397,7 +420,7 @@ nav > ul> li a:hover{
 
 /*Large devices (1024px or larger)*/
  
-@media only screen and (max-width: 1024px){
+@media only screen and (min-width: 1024px){
     header{
         text-align: unset;
         padding: 20px 0 13px;
@@ -462,6 +485,10 @@ padding-right: 0%;
 
 
 }
+
+.flex-row-example {
+    flex-direction: row;
+  }
 
 
 
