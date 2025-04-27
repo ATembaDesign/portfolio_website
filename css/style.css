@@ -31,7 +31,7 @@ font-size: 20px;
 
    h1.topic {
     color: #000000;
-    font-size: 18px;
+    font-size: 30px;
     text-align: left;
     padding: auto;
     
@@ -47,7 +47,7 @@ h1.prototype {
 
 h2 {
     color: none;
-    font-size: 16px;
+    font-size: 30px;
     font-weight: 600;
     font-style: italic;
     line-height: 1.4;
@@ -160,7 +160,8 @@ h2.topic {
 background-color: #f1890171;
 text-align: left;
 padding-top: 10px;
-padding-bottom: 10px;   
+padding-bottom: 10px;  
+margin: auto; 
 }
 
 
@@ -181,8 +182,6 @@ height: auto;
   .flex-example {
     display: flex;
     flex-direction: row;
-    gap: 2%;
-    align-items: center;
     justify-content: center;
     margin-top: 10px;
     justify-content: space-evenly;
@@ -306,7 +305,7 @@ text-decoration: none;
     /* Layout Styling*/
 
     .container{
-        padding: 0 15px;
+        padding: auto;
         max-width: 1200px;
     }
 
@@ -407,6 +406,12 @@ nav > ul> li a:hover{
     padding: auto;
   }
 
+
+
+h1.topic{
+
+font-size: 36px;
+}
     
 
     [class*="col-"] {
@@ -466,9 +471,20 @@ nav > ul> li a:hover{
     margin: 0 auto;
   }
 
-  .h2 {
-    font-size: 20px;
+  h1 {
+    font-size: 28px;
   }
+
+
+
+h2 {
+    font-size: 46px;
+}
+
+ 
+
+
+
 
     
     [class*="col-"] {
