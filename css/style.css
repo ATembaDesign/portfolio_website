@@ -148,6 +148,7 @@ h2.topic {
     
     footer {
         text-align: center;
+        align-items: flex-start;
                 }
 
         .icons {
@@ -156,19 +157,24 @@ h2.topic {
 
    
 #about{
-
 background-color: #f1890171;
 text-align: left;
 padding-top: 10px;
-padding-bottom: 10px;
-    
+padding-bottom: 10px;   
 }
+
+
+
 
 img {
     width: 100%;
     
 max-width: 100%;
 height: auto;
+  }
+
+  .picture {
+    float: right;
   }
 
 
@@ -180,7 +186,8 @@ height: auto;
     justify-content: center;
     margin-top: 10px;
     justify-content: space-evenly;
-    
+    align-content: center;
+
      }
 
   .col {
@@ -189,10 +196,8 @@ height: auto;
 
  
 
-  topic-group{
-    margin-right: 10px;
-  }
-
+ 
+ 
 @keyframes color-change {
     0% {fill: #d03816;}
     25% {fill: #ffffff;}
@@ -310,8 +315,19 @@ text-decoration: none;
    
     
     }
+.blue col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
 
-
+.green col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
       
 
 header{
@@ -325,6 +341,7 @@ border: 1px solid #000000;
 }
 
    main{
+    background-color: #ffffff;
     padding-top: 5px;
         width: 100%;
     }
@@ -387,6 +404,7 @@ nav > ul> li a:hover{
   .container{
     display: blocK;
     margin: 0 auto;
+    padding: auto;
   }
 
     
@@ -448,6 +466,10 @@ nav > ul> li a:hover{
     margin: 0 auto;
   }
 
+  .h2 {
+    font-size: 20px;
+  }
+
     
     [class*="col-"] {
         float: left;
@@ -486,13 +508,9 @@ padding-right: 0%;
 
 }
 
-.flex-row-example {
-    flex-direction: row;
-  }
-
-
 
 }
+
 
 
 
