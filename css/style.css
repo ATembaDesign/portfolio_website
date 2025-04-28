@@ -314,19 +314,6 @@ text-decoration: none;
    
     
     }
-.blue col {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
-
-.green col {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
       
 
 header{
@@ -404,6 +391,7 @@ nav > ul> li a:hover{
     display: blocK;
     margin: 0 auto;
     padding: auto;
+
   }
 
 
