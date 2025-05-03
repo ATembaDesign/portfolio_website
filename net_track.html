@@ -7,20 +7,29 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Game Cache</title>
     <link href="img/ashley_favicon.png" rel="shortcut icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
 </head>
 
 <body>
     <header>
+               
         <div class="container">
-        <img src="img/logo_new.jpg" />
-
-        <nav>
-            <ul>
-                <li><a href="index.html" class="nav">Work</a></li>
+            <div class="navtoggle" id="myNavoggle">
+            <img class="logo" src="img/logo_new.jpg" alt=" Ashley Temba UX UI logo"/>
+          
+      
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="nav">Work</a></li>
                     <li><a href="about.html" class="nav">About</a></li>
                     <li><a href="#contact" class="nav">Contact</a></li>
-            </ul>
-        </nav>
+                    <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+     </ul>
+     
+
+            </nav>
+        </div>
     </div>
     </header>
 
@@ -79,7 +88,7 @@ d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.36
 
     </main>
 
-
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 
