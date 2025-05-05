@@ -31,7 +31,7 @@ font-size: 20px;
      h1.topic {
     color: #000000;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     padding: auto;
     
    }
@@ -115,7 +115,7 @@ h2.topic {
     
    }
 
-   #resume{
+   #resume_skills{
     background-color: #ffffff;
     line-height: 1.4;
    }
@@ -178,14 +178,14 @@ height: auto;
 
   .icon_flex {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 10px;
-    justify-content: space-be;
-    align-content: center;
-    max-width: 300px;
-    margin: 50px auto
+    margin: auto;
+    margin-top: 0;
+    margin: 50px;
+    justify-content: space-between;
+    padding: 20px;
+    
 
+     
      }
 
 
@@ -194,7 +194,8 @@ height: auto;
             display: flex;
             margin: auto;
             margin-top: 0;
-            justify-content: space-evenly;
+            margin: 50px;
+            justify-content: space-between;
             padding: 20px;
             
         
@@ -281,9 +282,12 @@ text-decoration: none;
     }
 
     .button.resume{
+    display: inline-block;
+    align-items: center;
+    align-content: center;
     background-color: rgb(21, 61, 61);
     font-weight: 400;
-;
+    margin-left: 100px;
     color: #ffffff;
     padding: 7px;
     border-radius: 6px;
