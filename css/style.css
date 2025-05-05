@@ -16,9 +16,10 @@ body {
 
 
     
-
-
-    
+/*
+Titles & Headings
+*/
+   
 
 
 h1 {
@@ -27,9 +28,7 @@ font-size: 20px;
 }
 
 
-  
-
-   h1.topic {
+     h1.topic {
     color: #000000;
     font-size: 30px;
     text-align: left;
@@ -65,13 +64,13 @@ h2.topic {
 
    h2.connect {
     color: #000000;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
     letter-spacing: 8px;
     text-align: center;
     background: none;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
    
    }
 
@@ -102,7 +101,7 @@ h2.topic {
     width: 100%;
    }
 
-   nav > ul> {
+   nav > ul> li{
     list-style-type: none;
     padding: 0;
     display: inline-block;
@@ -122,8 +121,6 @@ h2.topic {
    }
 
 
-
-  
   
    #work{
     background-color: #f1890171;
@@ -179,16 +176,30 @@ height: auto;
     float: right;
   }
 
-
-  .flex-example {
+  .icon_flex {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 10px;
-    justify-content: space-evenly;
+    justify-content: space-be;
     align-content: center;
+    max-width: 300px;
+    margin: 50px auto
 
      }
+
+
+
+        .icon_footer {
+            display: flex;
+            margin: auto;
+            margin-top: 0;
+            justify-content: space-evenly;
+            padding: 20px;
+            
+        
+             }
+     
 
   .col {
     margin: 20px;
@@ -295,7 +306,6 @@ text-decoration: none;
 
 
 #netrack{
-    background-color: #f1890171;
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -320,10 +330,10 @@ text-decoration: none;
 
 header{
 background-color: #FFFFFF;
-list-style-type: none;
 word-spacing: 40px;
 padding: 10px;
 margin: 10px;
+
 
 }
 
@@ -336,7 +346,7 @@ margin: 10px;
 
 
 
-nav > ul> {
+nav > ul>  {
     list-style-type: none;
     padding: 0;
     display: inline-block;
@@ -358,12 +368,17 @@ nav > ul> li a:hover{
 
 .navtoggle li:not(:last-child) {
     display: none;
-    list-style: none;
+   
   }
 
   .navtoggle, .navtoggle.responsive {
     position: relative;
-    list-style: none;
+    display: block;
+
+  }
+
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
   }
 
   .navtoggle li .icon {
@@ -372,6 +387,18 @@ nav > ul> li a:hover{
   top: 2px;
   font-size: 20px;
 }
+
+.navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    border-top: solid 1px #000000;
+   
+
+  }
+
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
 
 .logo {
     max-width: 150px;
