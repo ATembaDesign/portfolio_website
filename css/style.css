@@ -24,7 +24,7 @@ Titles & Headings
 
 h1 {
 color: #FFFFFF;
-font-size: 20px;
+font-size: 36px;
 }
 
 
@@ -154,6 +154,7 @@ h2.topic {
         background-image: linear-gradient(to right, rgba(21, 61, 61, 0.921) , rgba(10, 74, 12, 0.449));
         color: #FFFFFF;
         text-align: center;
+        padding-bottom: 20px;
                 }
 
         .icons {
@@ -211,7 +212,7 @@ height: auto;
 
 
 
-        .icon_footer {
+.icon_footer {
             display: flex;
             margin: 20px;
             justify-content: space-between;
@@ -280,16 +281,14 @@ text-decoration: none;
 
   .button {
     background-color: rgba(21, 61, 61, 0.712);
-    align-content: center;
     font-size: 16px;
     letter-spacing: 5px;
-    text-decoration: none;
+    margin-left: 90px;
     font-weight: 400;
     color: #ffffff;
+    text-decoration: none;
     padding: 15px;
-    border-radius: 50px;
-    border: solid 3px;
-    border-color: rgb(21, 61, 61);
+    border-radius: 4px;
     transition-duration: 1s;
     transition-property: opacity .1;
 
@@ -306,11 +305,9 @@ text-decoration: none;
     .button.resume{
     display: inline-block;
     background-color: rgba(21, 61, 61, 0.712);
-    border-radius: 50px;
-    border: solid 3px;
-    border-color: rgb(21, 61, 61);
+    border-radius: 4px;
     font-weight: 400;
-    margin-left: 70px;
+    margin-left: 65px;
     color: #ffffff;
     padding: 20px;
     transition-duration: 1s;
@@ -411,7 +408,7 @@ nav > ul> li a:hover{
 
   .navtoggle li .icon {
   position: absolute;
-  right: 20px;
+  right: 10px;
   top: 2px;
   font-size: 20px;
 }
@@ -431,7 +428,6 @@ nav > ul> li a:hover{
 
 .logo {
     max-width: 150px;
-   
          
 }
 
@@ -482,6 +478,18 @@ nav > ul> li a:hover{
         .navtoggle.responsive li {
         border-top: 1px solid transparent;
         padding: 0px 0;
+        }
+
+        .button.resume{
+            display: inline-block;
+            background-color: rgba(21, 61, 61, 0.712);
+            border-radius: 4px;
+            font-weight: 400;
+            margin-left: 310px;
+            color: #ffffff;
+            padding: 20px;
+            transition-duration: 1s;
+            transition-property: opacity .1;
         }
 
 
@@ -557,6 +565,8 @@ padding: auto;
         transition-duration: 1s;
         transition-property: opacity .1;
     }
+
+    
     
 
    
