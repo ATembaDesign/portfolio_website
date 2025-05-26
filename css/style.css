@@ -282,7 +282,8 @@ text-decoration: none;
     background-color: rgba(21, 61, 61, 0.712);
     font-size: 16px;
     letter-spacing: 5px;
-    margin-left: 90px;
+    margin-left: 95px;
+    text-align: right;
     font-weight: 400;
     color: #ffffff;
     text-decoration: none;
@@ -576,12 +577,31 @@ padding: auto;
         
     }
 
+    .button {
+        background-color: rgba(21, 61, 61, 0.712);
+        font-size: 16px;
+        letter-spacing: 5px;
+        margin-left: 20px;
+        text-align: right;
+        font-weight: 400;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 4px;
+        transition-duration: 1s;
+        transition-property: opacity .1;
+    
+    
+    }
+
     .button.resume{
         display: inline-block;
         background-color: rgba(21, 61, 61, 0.712);
         border-radius: 4px;
         font-weight: 400;
-        margin-left: 375px;
+        margin-left: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
         color: #ffffff;
         padding: 20px;
         transition-duration: 1s;
