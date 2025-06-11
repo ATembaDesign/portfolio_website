@@ -333,8 +333,8 @@ text-decoration: none;
     
 
 }
+
    
-    
 
     /* Layout Styling*/
 
@@ -379,10 +379,10 @@ nav > ul>  {
 
 
 nav > ul> li a{
-    padding: 0 15;
+    padding: 0 15px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #000000;
+    color: #FFFFFF;
     padding-left: 10px;
     
 }
@@ -411,6 +411,7 @@ nav > ul> li a:hover{
   right: 10px;
   top: 2px;
   font-size: 20px;
+  color: #000000;
 }
 
 .navtoggle.responsive li  {
