@@ -428,7 +428,7 @@ nav > ul> li a:hover{
   }
 
 .logo {
-    max-width: 150px;
+    max-width: 250px;
          
 }
 
@@ -655,10 +655,11 @@ padding: auto;
     margin: 0 auto;
   }
 
-  .col-md-6 col-lg-5{
-width: 1000px;
 
-  }
+
+p.studybio{
+    text-align: justify;
+}
 
   h1 {
     font-size: 28px;
