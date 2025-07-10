@@ -417,7 +417,7 @@ nav > ul> li a:hover{
 .navtoggle.responsive li  {
     display: block;
     padding: 10px 0;
-    background-color: rgba(21, 61, 61, 0.473);
+    background-color: none;
     border-top: solid 1px #ffffff;
    
 
@@ -429,6 +429,7 @@ nav > ul> li a:hover{
 
 .logo {
     max-width: 250px;
+padding-left: 40px;
          
 }
 
@@ -571,11 +572,12 @@ padding: auto;
         
     }
 
-    .logo{
-       width: 200px;
-       margin-left: 0px;
-    
-    }
+.logo {
+    max-width: 250px;
+padding-left: 20px;
+         
+}
+
 
     p {font-size: 24px;}
 
@@ -608,7 +610,7 @@ padding: auto;
         background-color: rgba(21, 61, 61, 0.712);
         border-radius: 4px;
         font-weight: 400;
-        margin-left: 400px;
+        margin-left: 450px;
         margin-top: 20px;
         margin-bottom: 20px;
         color: #ffffff;
@@ -626,15 +628,15 @@ padding: auto;
         margin-top: 4px;
     }
 
+
+
     .navtoggle.responsive li  {
         display: block;
         padding: 10px 0;
-        background-color: none;
         border-top: solid 1px #ffffff;
        
     
       }
-
 
        
     
