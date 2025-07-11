@@ -197,17 +197,21 @@ height: auto;
     float: right;
   }
 
-  .icon_flex {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    margin-top: 0;
-    margin: 10px;
-    padding: 20px;
-    
 
-     
-     }
+       .icon_flex {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 10px;
+        padding: 10px;
+        padding-left: 10px;
+        text-align: center;
+        justify-content: space-evenly
+    
+         
+         }
+
 
 
 
@@ -236,6 +240,28 @@ height: auto;
     75% {fill:#0e3aea}
     100% {fill:#000000}
 }
+
+
+    .scrolltotop{
+    width: 48px;
+    animation-name: appear;
+    animation-timeline: scroll(y);
+    position: fixed;
+    padding-left: 250px;
+    padding-top: 400px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Layer_1{
@@ -382,7 +408,7 @@ nav > ul> li a{
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #FFFFFF;
+    color:darkslategrey;
     padding-left: 10px;
     
 }
@@ -578,6 +604,10 @@ padding-left: 20px;
          
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
     p {font-size: 24px;}
 
@@ -587,6 +617,7 @@ padding-left: 20px;
         
         
     }
+
 
     .button {
         background-color: rgba(21, 61, 61, 0.712);
@@ -610,7 +641,7 @@ padding-left: 20px;
         background-color: rgba(21, 61, 61, 0.712);
         border-radius: 4px;
         font-weight: 400;
-        margin-left: 450px;
+        margin-left: 400px;
         margin-top: 20px;
         margin-bottom: 20px;
         color: #ffffff;
@@ -749,12 +780,24 @@ padding-right: 0%;
         margin-right: auto;
         margin: 10px;
         padding: 20px;
+        padding-left: 350px;
         text-align: center;
         justify-content: space-evenly;
         
     
          
          }
+
+            .scrolltotop{
+    animation-name: appear;
+    animation-timeline: scroll(y);
+    position: fixed;
+    padding-left: 100px;
+    padding-top: 400px;
+    padding-right: 20px;
+}
+
+    
     
 
 
