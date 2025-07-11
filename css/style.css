@@ -228,6 +228,7 @@ height: auto;
 
   .col {
     margin: 20px;
+
   }
 
  
@@ -247,7 +248,7 @@ height: auto;
     animation-name: appear;
     animation-timeline: scroll(y);
     position: fixed;
-    padding-left: 250px;
+    padding-left: 150px;
     padding-top: 400px;
     padding-right: 20px;
 }
@@ -357,6 +358,7 @@ text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px;
     
+    
 
 }
 
@@ -390,7 +392,10 @@ margin: 10px;
    main{
     background-color: #ffffff;
     padding-top: 5px;
-        width: 100%;
+    padding-right: 20px;
+    width: 100%;
+        
+   
     }
     
 
@@ -549,7 +554,9 @@ padding: auto;
   .col-md-6 {
         width: 48%;
         padding-right: 2%;
+        margin-right: 28;
 
+        
 
 }
 .col-md-6:last-child {
@@ -684,12 +691,11 @@ html {
 
   .container{
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     display: blocK;
     margin: 0 auto;
   }
-
 
 
 
@@ -761,9 +767,6 @@ padding-right: 0%;
 
 
 
-
-
-
 .icon_footer {
     display: flex;
     margin: 20px;
@@ -780,7 +783,7 @@ padding-right: 0%;
         margin-right: auto;
         margin: 10px;
         padding: 20px;
-        padding-left: 350px;
+        padding-left: 60px;
         text-align: center;
         justify-content: space-evenly;
         
