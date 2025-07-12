@@ -7,11 +7,12 @@ Tertiary Color (White):#ffffff;
 
 
 body {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: roboto, sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.4;
+   
 }
 
 
@@ -25,6 +26,7 @@ Titles & Headings
 h1 {
 color: #FFFFFF;
 font-size: 36px;
+
 }
 
 
@@ -127,9 +129,10 @@ h2.topic {
   
    #work{
     background-color: #ffffff;
-    text-align:justify;
     padding-top:10px;
     padding-bottom:10px;
+  
+    
 
    }
 
@@ -188,6 +191,7 @@ margin: auto;
 
 img {
     width: 100%;
+
     
 max-width: 100%;
 height: auto;
@@ -605,6 +609,24 @@ padding: auto;
         
     }
 
+    #project {
+color: #000000;
+width: 600px;
+}
+
+
+    workimage{
+        width: 200px;
+    }
+
+    img {
+    width:100%;
+    align-items: center;
+    
+
+height: auto;
+  }
+
 .logo {
     max-width: 250px;
 padding-left: 20px;
@@ -643,6 +665,18 @@ html {
     
     }
 
+    #profile_pic{
+        width: 50%;
+        padding-left: 300px;
+    }
+
+    #bio{
+    background-color: rgba(21, 61, 61, 0.473);
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 5px;
+
     .button.resume{
         display: inline-block;
         background-color: rgba(21, 61, 61, 0.712);
@@ -656,6 +690,31 @@ html {
         transition-duration: 1s;
         transition-property: opacity .1;
     }
+
+    h2footer_connect{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-align: center;
+    background: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+h2.connect {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-align: center;
+    background: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   
+   }
 
     
     
@@ -678,7 +737,7 @@ html {
 
        
     
-      }
+      
 
    
     nav {
@@ -819,6 +878,7 @@ padding-right: 0%;
       .col-lg-5 {
         width: 18%;
             }
+            
 
             .button.resume{
                 display: inline-block;
@@ -866,7 +926,4 @@ padding-right: 0%;
                 margin-top: 4px;
             }
 
-
-    
-}
-
+        }
