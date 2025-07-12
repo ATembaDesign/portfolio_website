@@ -116,6 +116,7 @@ h2.topic {
     padding: 20px;
     margin: 0 auto;
     margin-top: 5px;
+  
     
    }
 
@@ -608,6 +609,26 @@ padding: auto;
         padding: 20px 0 13px;
         
     }
+
+ 
+
+    h2{
+        font-size: 34px;
+    }
+
+       #hero {
+    background-image: linear-gradient(to right, rgba(21, 61, 61, 0.921) , rgba(10, 74, 12, 0.449));
+    text-align: right;
+    letter-spacing: 5px;
+    line-height: 1.0;
+    padding: 20 px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+ 
+    display: inline-block;
+    width: 100%;
+   }
 
     #project {
 color: #000000;
