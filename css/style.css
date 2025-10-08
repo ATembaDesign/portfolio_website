@@ -339,6 +339,8 @@ text-decoration: none;
 
 
      .button {
+        display: flex;
+        justify-content: space-evenly;
         background-color: rgb(255, 255, 255);
         font-size: 16px;
         letter-spacing: 1px;
@@ -348,9 +350,10 @@ text-decoration: none;
         font-weight: 500;
         color: #4d4d4d;
         text-decoration: none;
-        padding: 20px;
+        padding: 15px;
         border-radius: 50px;
-        outline-style:solid ; 
+        outline-style:solid; 
+        outline-width: thin;
         outline-color: #000000a8;
         transition-duration: 1s;
         transition-property: opacity .1;
@@ -654,6 +657,7 @@ height: auto;
             transition-property: opacity .1;
         }
 
+        
 
   .container{
     display: blocK;
