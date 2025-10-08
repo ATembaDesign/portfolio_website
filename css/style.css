@@ -6,27 +6,32 @@ Tertiary Color (White):#ffffff;
 */
 
 body{
-    background-position: 50% 240px; 
+    background-position: 50% 300px; 
     background-repeat: no-repeat;
     background-size: contain;   
+    
+   
     line-height: 1.5;
 }
 
 h2 {
     color: #000000;
     margin: 0px;
+    font-size: 20px;
 }
 
 p {color: #000000;
     margin: 0px;
     margin-top: 10px;
+    font-size: 16px;
 }
 
 
 
  #hero {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.921) , rgba(255, 255, 255, 0.449));
-    text-align: right;
+    text-align: center;
+    align-content: left;
     letter-spacing: 5px;
     align-content: center;
     line-height: 1.0;
@@ -98,12 +103,20 @@ font-size: 36px;
 
   h1.tagline {
     color: #000000;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 46px;
     text-align: center;
     letter-spacing: 5px;
     line-height: 1.8;
    }
+
+   h4 {
+    color: #000000;
+    font-style:normal;
+    letter-spacing: 5px;
+    font-size: 14px;
+    padding-right: 15%;
+   }
+   
    h1.tagline span {
     display:block;
    }
@@ -388,6 +401,7 @@ text-decoration: none;
 
     .container{
         padding: auto;
+        padding-bottom: 20px;
         max-width: 1200px;
         
  
@@ -402,11 +416,12 @@ text-decoration: none;
     }
 
         .row1 {
+        display: inline-block;
         width: 90%;
         padding-top: 0px;
         padding-bottom: 0px;
         padding-left: 8%;
-        margin-top: 0px;  
+        margin-top: 0px; 
     }
       
 
@@ -440,9 +455,10 @@ nav > ul>  {
 
 nav > ul> li a{
     padding: 0 15px;
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: 400;
-    color:darkslategrey;
+    color:rgb(166, 165, 164);
     padding-left: 10px;
     
 }
@@ -488,7 +504,7 @@ nav > ul> li a:hover{
   }
 
 .logo {
-    max-width: 250px;
+    max-width: 40px;
 padding-left: 1px;
          
 }
@@ -505,15 +521,17 @@ padding-left: 1px;
 
     header{
         text-align: unset;
-        padding: auto;
+        padding: aut0o;
         background-color: #ffffff;
 
     }
 
     
 .logo{
-    width: 60px;
+    width: 120px;
     padding: 0px;
+    padding-left: 2%;
+    padding-top: 10px;
 }
     nav {
         width: auto;
@@ -567,10 +585,13 @@ padding-left: 1px;
     margin: 0 auto;
 
     h1.tagline {
-        color: #0c0c0c;
-        font-size: 16px;
+        color: #000000;
+        font-size: 24px;
         padding-left: 0px;
         text-align: center;
+        margin: 0px;
+
+        line-height: 1.8;
 
     }
     h2 {
@@ -581,6 +602,7 @@ body{
     background-position: 50% 220px; 
     background-repeat: no-repeat;
     background-size: contain;
+    font-size: 24px;
     }
 
     
@@ -590,6 +612,7 @@ body{
         padding-bottom: 0px;
         padding-left: 8%;
         margin-top: 100px;  
+    
     }
 
         .row1 {
@@ -599,8 +622,10 @@ body{
         padding-bottom: 10px;
         padding-left: 8%;
         margin-top: 0px;  
+    
     }
       
+    
    
     
 
@@ -691,6 +716,65 @@ padding: auto;
        
        }
     
+
+
+
+nav > ul>  {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+
+nav > ul> li a{
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color:darkslategrey;
+    padding-left: 10px;
+    
+}
+
+nav > ul> li a:hover{
+    color: #000000;
+}
+
+.navtoggle li:not(:last-child) {
+    display: none;
+   
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+    display: block;
+
+  }
+
+  .navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+
+  .navtoggle li .icon {
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.navtoggle.responsive li  {
+    display: block;
+    padding: 10px 0;
+    background-color: none;
+    border-top: solid 1px #ffffff;
+   
+
+  }
+
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+  }
 
 
 
