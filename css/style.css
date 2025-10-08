@@ -354,7 +354,8 @@ text-decoration: none;
         border-radius: 50px;
         outline-style:solid; 
         outline-width: thin;
-        outline-color: #000000a8;
+        outline-color: #9c9b9b71;
+        box-shadow: 0 1px 2px 1px rgba(150, 150, 150, 0.6);
         transition-duration: 1s;
         transition-property: opacity .1;
     
