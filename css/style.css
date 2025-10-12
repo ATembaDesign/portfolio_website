@@ -6,30 +6,36 @@ Tertiary Color (White):#ffffff;
 */
 
 body{
-    background-position: 50% 250px; 
+
+    background-position: 50%  270px; 
     background-repeat: no-repeat;
     background-size: contain;   
+
+
+    
+  
     
    
     line-height: 1.5;
 }
 
 h2 {
-    color: #000000;
-    margin: 0px;
-    font-size: 20px;
+    color: #242323;   
+    font-size: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
 }
 
 p {color: #000000;
     margin: 0px;
-    margin-top: 10px;
+    margin-top: 6px;
     font-size: 16px;
 }
 
 
 
  #hero {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.921) , rgba(255, 255, 255, 0.449));
+    background-image: linear-gradient(to right, rgba(254, 254, 254, 0.921) , rgba(255, 255, 255, 0.449));
     text-align: center;
     align-content: left;
     letter-spacing: 5px;
@@ -39,6 +45,7 @@ p {color: #000000;
     padding-top: 20px;
     padding-bottom: 10px;
     margin: 0 auto;
+    
  
 
 body {
@@ -105,6 +112,7 @@ font-size: 36px;
     color: #000000;
     font-size: 46px;
     font-weight: 100px;
+    font-family: lexend;
     text-align: center;
     letter-spacing: 5px;
     line-height: 1.8;
@@ -113,7 +121,7 @@ font-size: 36px;
    h4 {
     display: flex;
     justify-content: center;
-    color: #000000;
+    color:#cdd2ce;
     font-style:normal;
     letter-spacing: 8px;
     font-size: 14px;
@@ -426,7 +434,7 @@ text-decoration: none;
         .row1 {
         display: inline-block;
         width: 90%;
-        padding-top: 0px;
+        padding-top: 10px;
         padding-bottom: 0px;
         padding-left: 8%;
         margin-top: 0px; 
@@ -463,7 +471,7 @@ nav > ul>  {
 
 nav > ul> li a{
     padding: 0 15px;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 400;
     color:rgb(166, 165, 164);
@@ -512,7 +520,7 @@ nav > ul> li a:hover{
   }
 
 .logo {
-    max-width: 30px;
+    max-width: 150px;
 padding-left: auto;
          
 }
@@ -529,7 +537,7 @@ padding-left: auto;
 
     header{
         text-align: unset;
-        padding: aut0o;
+        padding: 0px;
         background-color: #ffffff;
 
     }
@@ -538,7 +546,7 @@ padding-left: auto;
 .logo{
     width: 120px;
     padding: 0px;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-top: 10px;
 }
     nav {
@@ -575,7 +583,7 @@ padding-left: auto;
            main{
     padding-top: 270px;
     padding-right: 20px;
-    padding-left: 10px;
+    padding-left: 0px;
     width: 100%;
         
    
@@ -594,12 +602,11 @@ padding-left: auto;
 
     h1.tagline {
         color: #000000;
-        font-size: 30px;
-        padding-left: 0px;
+        font-size: 24px;
+        font-family: lexend zetta
         text-align: center;
         letter-spacing: 8px;
         margin: 0px;
-
         line-height: 1.8;
 
     }
@@ -664,6 +671,7 @@ height: auto;
     display: blocK;
     margin: 0 auto;
     padding: auto;
+    padding-top: 20px;
 
   }
 
@@ -872,7 +880,7 @@ height: auto;
 .logo {
 max-width: 250px;
 width: 300px;
-padding-left: 50px;
+padding-left: 40px;
 
 }
 
