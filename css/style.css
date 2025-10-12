@@ -5,6 +5,11 @@ Secondary Color (Gray): #d9d9d9;
 Tertiary Color (White):#ffffff;
 */
 
+@font-face {
+    font-family: 'Lexend';
+    src: url(fonts/#000000);
+}
+
 body{
 
     background-position: 50%  270px; 
@@ -228,9 +233,9 @@ margin: auto;
 
 
 img {
-    width: 75%;
-    
-max-width: 100%;
+    width: 100%;    
+    padding-top: 85px;
+max-width: 200%;
 height: auto;
   }
 
@@ -440,6 +445,14 @@ text-decoration: none;
         margin-top: 0px; 
     }
       
+            .row2 {
+        display: inline-block;
+        width: 90%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 8%;
+        margin-top: 0px; 
+    }
 
 header{
 background-color: #ffffff;
@@ -603,7 +616,7 @@ padding-left: auto;
     h1.tagline {
         color: #000000;
         font-size: 24px;
-        font-family: lexend zetta
+        font-family: 'Lexend' Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         letter-spacing: 8px;
         margin: 0px;
@@ -634,19 +647,28 @@ body{
         .row1 {
             display: inline-block;
         width: 90%;
+        padding-top: 500px;
+        padding-bottom: 10px;
+        padding-left: 8%;
+        margin-top: 0px;  
+    
+    }
+              .row2 {
+            display: inline-block;
+        width: 90%;
         padding-top: 0px;
         padding-bottom: 10px;
         padding-left: 8%;
         margin-top: 0px;  
     
     }
-      
     
    
     
 
 img {
     width: 100%;
+    
     
 max-width: 100%;
 height: auto;
