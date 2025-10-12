@@ -37,6 +37,15 @@ h2 {
     padding-bottom: 0px;
     margin-bottom: 1px;
 }
+h2.connect {
+    
+   text-align: center;
+    color: #000000;   
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
 
 p {color: #000000;
     margin: 0px;
@@ -158,7 +167,7 @@ h1.prototype {    color: #000000;
 
    h2.connect {
     color: #fa1212;
-    font-size: 80px;
+    font-size: 10px;
     font-weight: 700;
     letter-spacing: 8px;
     text-align: center;
@@ -202,7 +211,7 @@ h1.prototype {    color: #000000;
  
     
     footer {
-        background-image: linear-gradient(to right, rgba(21, 61, 61, 0.921) , rgba(10, 74, 12, 0.449));
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.921) , rgba(255, 255, 255, 0.712));
         color: #FFFFFF;
         text-align: center;
         padding-bottom: 20px;
@@ -474,7 +483,7 @@ text-decoration: none;
         padding-bottom: 0px;
         padding-left: 10px;
         margin-top: 0px; 
-        margin-bottom: 200px;
+        margin-bottom: 60px;
     }
 
 header{
