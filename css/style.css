@@ -1,32 +1,39 @@
 /*
+       
+        box-shadow: 0 1px 2px 1px rgba(150, 150, 150, 0.6);
 Colors used:
 Primary Color (Black): #000000;
 Secondary Color (Gray): #d9d9d9;
 Tertiary Color (White):#ffffff;
 */
 
-@font-face {
-    font-family: 'Lexend';
-    src: url(fonts/#000000);
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=Lexend:wght@100..900&family=Londrina+Sketch&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 body{
 
-    background-position: 50%  270px; 
+     font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+    background-position: 50%  290px; 
     background-repeat: no-repeat;
     background-size: contain;   
-
-
-    
-  
-    
-   
     line-height: 1.5;
 }
 
+
+
+
+
 h2 {
+    
+   text-align: center;
     color: #242323;   
-    font-size: 18px;
+    font-size: 20px;
     padding-bottom: 0px;
     margin-bottom: 1px;
 }
@@ -54,7 +61,7 @@ p {color: #000000;
  
 
 body {
-    background-position: 50% 510px;
+    background-position: 0% 510px;
     background-size: 1200px;
    background-repeat: no-repeat;
     font-family: roboto, sans-serif;
@@ -117,7 +124,6 @@ font-size: 36px;
     color: #000000;
     font-size: 46px;
     font-weight: 100px;
-    font-family: lexend;
     text-align: center;
     letter-spacing: 5px;
     line-height: 1.8;
@@ -233,10 +239,10 @@ margin: auto;
 
 
 img {
-    width: 100%;    
-    padding-top: 85px;
-max-width: 200%;
-height: auto;
+   
+    width: 90%;    
+    padding-top: 20px;
+    padding-left: 100px;
   }
 
   .picture {
@@ -338,6 +344,11 @@ height: auto;
     color: rgb(21, 61, 61);
   }
 
+  i.fa-solid.fa-arrow-right::before {
+    color: #8b1ea1;
+    margin-top: 20px;
+    width: 100%;
+  }
  
 
   a:hover{
@@ -357,18 +368,18 @@ text-decoration: none;
         background-color: rgb(255, 255, 255);
         font-size: 16px;
         letter-spacing: 1px;
-        margin-left: 150px;
+        margin-left: 0px;
         text-align: right;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 500;
-        color: #4d4d4d;
+        color: #b2b2b2;
         text-decoration: none;
         padding: 15px;
-        border-radius: 50px;
+         border-radius: 50px;
         outline-style:solid; 
         outline-width: thin;
         outline-color: #9c9b9b71;
-        box-shadow: 0 1px 2px 1px rgba(150, 150, 150, 0.6);
+
         transition-duration: 1s;
         transition-property: opacity .1;
     
@@ -447,11 +458,23 @@ text-decoration: none;
       
             .row2 {
         display: inline-block;
-        width: 90%;
+        justify-content: center;
+        width: 100%;
         padding-top: 0px;
         padding-bottom: 0px;
         padding-left: 10px;
         margin-top: 0px; 
+    }
+
+             .row3 {
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        margin-top: 0px; 
+        margin-bottom: 200px;
     }
 
 header{
@@ -464,7 +487,7 @@ margin: 0px;
 
    main{
     padding-top: 250px;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-left: 10px;
     width: 100%;
         
@@ -488,7 +511,7 @@ nav > ul> li a{
     text-transform: uppercase;
     font-weight: 400;
     color:rgb(166, 165, 164);
-    padding-left: 10px;
+    padding-left: 400px;
     
 }
 
@@ -616,6 +639,7 @@ padding-left: auto;
     h1.tagline {
         color: #000000;
         font-size: 24px;
+        font-weight: 400;
         font-family: 'Lexend' Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         letter-spacing: 8px;
@@ -623,9 +647,7 @@ padding-left: auto;
         line-height: 1.8;
 
     }
-    h2 {
-        font-size: 20px;
-    }
+
 
 body{
     background-position: 50% 220px; 
