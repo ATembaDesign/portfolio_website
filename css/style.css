@@ -14,6 +14,8 @@ Tertiary Color (White):#ffffff;
         padding: auto;
         padding-bottom: 0px;
         max-width: 1200px;
+        align-items: center;
+        padding-left: 0px;
         
  
     }
@@ -27,7 +29,6 @@ Tertiary Color (White):#ffffff;
    
     }
 
-
     
 header{
     padding-left: 5px;
@@ -37,7 +38,6 @@ margin: 0px;}
 
 .logo {
     max-width: 150px;
-padding-left: 0px;
 margin-top: 1px;
          
 }
@@ -86,7 +86,8 @@ nav > ul> li a{
     text-align: center;
     letter-spacing: 5px;
     line-height: 1.8;
-    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
    }
 
     h2 {
@@ -95,6 +96,8 @@ nav > ul> li a{
     font-style:normal;
     letter-spacing: 8px;
     font-size: 14px;
+    text-align: center;
+    padding-left: 20px;
    }
 
 
@@ -105,12 +108,13 @@ nav > ul> li a{
     font-weight: 500px;
     letter-spacing: 8px;
     font-size: 20px;
+    margin-top: 10px;
 
    }
 
    h4 {  
    text-align: center;
-    color: #ad1d1d;   
+    color: #000000;   
     font-size: 32px;
     letter-spacing: 5px;
     padding: auto;
@@ -124,33 +128,23 @@ nav > ul> li a{
 body{
 
   font-family: "Lexend", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: 16px;
   height: 100vh;
-  background-image: url('../img/ui_mask_profile_pic_3x.jpg');
+  background-image: url('../ui_profile_pic_3x.jpg');
   background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-position-y: 130%; 
     background-size: contain;   
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 
 
-
-
-
     img {
-    width: 90%;
-    align-items: center;
-    
-
-height: auto;
+    width: 100%;
+    height: auto;
   }
-
-
 
 
 
@@ -164,56 +158,61 @@ p {color: #525151;
     letter-spacing: 1px;
 }
 
-p.studies {
-    color: #1ea943;
-    text-decoration: none;
-}
+   .row1 {
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        margin-top: 0px; 
+    }
 
 
- #hero {
-    background-color: none;
-    background-position: top;
-    letter-spacing: 5px;
-    align-content: center;
-    line-height: 1.0;
-    padding: 20 px 0;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    margin: 0 auto;
+      
+            .row2 {
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        margin-top: 0px; 
+    }
+
+             .row3 {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        margin-top: 0px; 
+        margin-bottom: 60px;
+    }
+
+        .button {
+        background-color: rgba(250, 249, 249, 0.712);
+        font-size: 16px;
+        letter-spacing: 5px;
+        margin-left: 30px;
+        text-align: center;
+        font-weight: 400;
+        color: #acacac;
+        text-decoration: none;
+        padding: 20px;
+        border-radius: 50px;
+        outline-style: solid; 
+        outline-color: #838181;
+        transition-duration: 1s;
+        transition-property: opacity .1;
+        align-content: center;}
     
- 
+    
 
-body {
-    background-position: 0% 510px;
-    background-size: 1200px;
-      background-image: url('../img/ui_mask_profile_pic_3x.jpg');
-  background-repeat: no-repeat;
-    background-position: center
-    background-repeat: no-repeat;
-    background-size: contain;  
-   background-repeat: no-repeat;
-    font-family: roboto, sans-serif;
-    letter-spacing: 1px;
-    font-size: 16px;
-    text-align: left;
-    font-weight: 300;
-    line-height: 1.4;
-   
-}
-
-.button {
-    border: solid #1ea943;
-}
-
-
-
- 
-    display: inline-block;
-    width: 100%;
-   }
-
-
-
+    
    #bio{
     background-color: rgba(0, 0, 0, 0.473);
     color: #000000;
@@ -229,9 +228,6 @@ body {
 }
 
    
-
-#workimage { size: 200px;}
-  
  
     
     footer {
@@ -312,7 +308,6 @@ margin: auto;
 
   }
 
- 
 
  
  
@@ -373,33 +368,6 @@ text-decoration: none;
 text-decoration: none;
   }
 
-
-      {
-        display: flex;
-        justify-content: space-evenly;
-        background-color: rgb(255, 255, 255);
-        font-size: 16px;
-        letter-spacing: 1px;
-        margin-left: 10px;
-        margin-right: 20px;
-        text-align: right;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: 500;
-        color: #b2b2b2;.button
-        text-decoration: none;
-        padding: 15px;
-         border-radius: 50px;
-        outline-style:solid; 
-        outline-width: thin;
-        outline-color: #9c9b9b71;
-
-        transition-duration: 1s;
-        transition-property: opacity .1;
-    
-    
-    }
-
-
     .button:hover{
        background-color: #4b0a3c;
         color: #ffffff;
@@ -431,73 +399,12 @@ text-decoration: none;
         padding: 15px;
     }
 
-
-#netrack{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-    
-
-}
-
-   
+ 
 
     /* Layout Styling*/
 
 
-
-    .row{
-        width: 90%;
-        padding-top: 100px;
-        padding-bottom: 0px;
-        padding-left: 8%;
-        margin-top: 100px;  
-    }
-
-        .row1 {
-        display: inline-block;
-        width: 100%;
-        padding-top: 100px;
-        padding-bottom: 0px;
-        padding-left: 10px;
-        margin-top: 0px; 
-    }
-
-
-      
-            .row2 {
-        display: inline-block;
-        justify-content: center;
-        width: 100%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 10px;
-        margin-top: 0px; 
-    }
-
-             .row3 {
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 10px;
-        margin-top: 0px; 
-        margin-bottom: 60px;
-    }
-
-
-}
-
-
-    
-
-
-
-
-}
+     
 
 nav > ul> li a:hover{
     color: #9f4773f8;
@@ -510,183 +417,17 @@ nav > ul> li a:hover{
 
 /*Medium devices (320px and larger)*/
 
-@media only screen and (min-width: 320px) {
-
-    
-
-
-  
-
-
-
- #hero {
-    text-align: center;
-    letter-spacing: 5px;
-    align-content: center;
-    line-height: 1.0;
-    padding: 20 px 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 0 auto;
-
-
-
-body{
-  background-image: url('../img/ui_mask_profile_pic_3x.jpg');
-  background-repeat: no-repeat;
-    background-position: center
-    background-size: contain;  
-    background-position-y: center;
-    }
-
-    
-    .row{
-        width: 90%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 8%;
-        margin-top: 100px;  
-    
-    }
-
-        .row1 {
-            display: inline-block;
-        width: 90%;
-        padding-top: 500px;
-        padding-bottom: 10px;
-        padding-left: 8%;
-        margin-top: 0px;  
-    
-    }
-              .row2 {
-            display: inline-block;
-        width: 90%;
-        padding-top: 0px;
-        padding-bottom: 10px;
-        padding-left: 8%;
-        margin-top: 0px;  
-    
-    }
-    
-   
-    
-
-img {
-    width: 100%;
-    
-    
-max-width: 100%;
-height: auto;
-  }
-        
-
-        .button.resume{
-            display: inline-block;
-            background-color: rgba(21, 61, 61, 0.712);
-            border-radius: 4px;
-            font-weight: 400;
-            margin-left: 290px;
-            color: #ffffff;
-            padding: 20px;
-            transition-duration: 1s;
-            transition-property: opacity .1;
-        }
-
-        
-
-  .container{
-    display: blocK;
-    margin: 0 auto;
-    padding: auto;
-    padding-top: 20px;
-
-  }
-
-
-
-
-    [class*="col-"] {
-        float: left;
-      }
-
-      .row:after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-
-  .col-md-6 {
-        width: 58%;
-        padding-right: 75%;
-        padding-left: 0%;
-        margin-left: 8%;
-        align-content: center;
-
-
-        
-
-}
-.col-md-6:last-child {
-    padding-left: 2%;
-    padding-right: 0%;
-
-
-}
-
-    
-
-     h2.connect {
-        color: #e81b1b;
-        font-size: 24px;
-        font-weight: 700;
-        letter-spacing: 8px;
-        text-align: center;
-        background: none;
-        padding-top: 20px;
-        padding-bottom: 10px;
-       
-       }
-    
-
-
-.icon_footer {
-            display: flex;
-            flex-direction: row;
-            column-gap: 60px;
-            justify-content: space-evenly;
-            align-content: center;
-            padding: 20px;
-            padding-left: 10px;
-
+@media only screen and (min-width: 320px) {}
  
-            
-        
-             }
 
-
-
-
-
-}
 
 /*Large devices (1024px or larger)*/
  
 @media only screen and (min-width: 1024px){
-    header{
+    header {
         text-align: unset;
         padding: 0px 0 0px;
-        
-        
     }
-
-     h1 {
-    color: #000000;
-    font-size: 40px;
-    font-weight: 200;
-    text-align: center;
-    letter-spacing: 25px;
-    line-height: 1.8;
-   }
 
 
     #hero {
@@ -894,13 +635,6 @@ body {
     }
 
 
-  .container{
-    max-width: 1200px;
-    margin-left: 0;
-    margin-right: 0;
-    display: blocK;
-    margin: 0 auto;
-  }
 
 
 
@@ -1100,6 +834,3 @@ ul {
         align-content: center;
 
     
-    
-       
-
