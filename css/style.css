@@ -138,7 +138,7 @@ nav > ul> li a{
    text-align: center;
     color: #000000;  
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.76); 
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: 8px;
     padding: auto;
     padding-bottom: 0px;
@@ -148,9 +148,10 @@ nav > ul> li a{
 }
 
    h6 {  
+   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.921) , rgba(64, 12, 51, 0.712));
    text-align: center;
     color: #1b1a1a;  
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 8px;
     padding: auto;
     padding-bottom: 0px;
@@ -258,15 +259,22 @@ p {color: #525151;
         transition-property: opacity .1;
         align-content: center;}
     
-    
+       #hero {
+    text-align: right;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+   }
 
     
    #bio{
-    background-color: rgb(255, 255, 255);
     color: #000000;
     padding: 20px;
     margin: 0;
-    margin-top: 5px;
+    margin-top: 170px;
     text-align: left;
     }
 
