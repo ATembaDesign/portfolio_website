@@ -70,6 +70,15 @@ li {
 
 }
 
+ul.skills{   
+     display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 0px;
+    padding-top: 0px;
+    list-style: none;}
 
 nav > ul> li a{
     padding: 0px;
@@ -125,6 +134,30 @@ nav > ul> li a{
     padding-left: 5px;
 }
     
+   h5 {  
+   text-align: center;
+    color: #000000;  
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.76); 
+    font-size: 32px;
+    letter-spacing: 8px;
+    padding: auto;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    padding-left: 5px;
+}
+
+   h6 {  
+   text-align: center;
+    color: #1b1a1a;  
+    font-size: 20px;
+    letter-spacing: 8px;
+    padding: auto;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    padding-left: 5px;
+}
 
 
 body{
@@ -162,6 +195,15 @@ p {color: #525151;
     font-weight: 300px;
     letter-spacing: 1px;
 }
+
+
+    .row{
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        padding-bottom: 0px;
+        margin-top: 40px;  
+    }
 
    .row1 {
         display: inline-block;
@@ -220,12 +262,58 @@ p {color: #525151;
 
     
    #bio{
-    background-color: rgba(0, 0, 0, 0.473);
+    background-color: rgb(255, 255, 255);
     color: #000000;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0;
     margin-top: 5px;
     text-align: left;
+    }
+
+    p.indent {color: #878484;
+    text-align: justify;
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 0px;
+    font-style: light;
+    letter-spacing: 0px;
+    line-height: 2;
+}
+
+
+
+    .button.resume{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-weight: 400;
+    margin-left: auto;
+    color: #5d5b5b;
+    padding: 20px;
+     text-align: center;
+        font-weight: 400;
+     text-decoration: none;
+         padding: 15px;
+         border-radius: 21px;
+        outline-style:solid; 
+        outline-width: thin;
+        outline-color: #9c9b9b71;
+        transition-duration: 1s;
+        transition-property: opacity .1;
+        align-content: center;
+    transition-duration: 1s;
+    transition-property: opacity .1;
+}
+    
+
+    .button.resume:hover{
+        background-color: #e01f1f;
+        
+        
     }
 
    #resume_skills{
@@ -248,7 +336,7 @@ p {color: #525151;
         }
 footer_connect{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 80px;
     font-weight: 700;
     letter-spacing: 8px;
     text-align: center;
@@ -382,24 +470,7 @@ text-decoration: none;
 
     }
 
-    .button.resume{
-    display: inline-block;
-    background-color: rgba(21, 61, 61, 0.712);
-    border-radius: 4px;
-    font-weight: 400;
-    margin-left: 65px;
-    color: #ffffff;
-    padding: 20px;
-    transition-duration: 1s;
-    transition-property: opacity .1;
-}
-    
 
-    .button.resume:hover{
-        background-color: #e01f1f;
-        
-        
-    }
 
     .button.email{
         font-size: 20px;
@@ -826,7 +897,7 @@ ul {
              
     .button {
         background-color: rgba(250, 249, 249, 0.712);
-        font-size: 16px;
+        font-size: 20px;
         letter-spacing: 5px;
         margin-left: 30px;
         text-align: right;
