@@ -23,7 +23,7 @@ Tertiary Color (White):#ffffff;
 
        main{
    padding: auto;
-   padding-top: 377px;
+   padding-top: 535px;
     width: 100%;
         
    
@@ -96,6 +96,8 @@ nav > ul> li a{
     letter-spacing: 5px;
     line-height: 1.8;
     margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 40px;
     margin-bottom: 20px;
    }
 
@@ -106,7 +108,8 @@ nav > ul> li a{
     letter-spacing: 8px;
     font-size: 14px;
     text-align: center;
-    padding-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
    }
 
 
@@ -150,15 +153,16 @@ nav > ul> li a{
    h6 {  
    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.921) , rgba(64, 12, 51, 0.712));
    text-align: center;
-    color: #1b1a1a;  
+    color: #1b051c;  
     font-size: 22px;
     letter-spacing: 8px;
     padding: auto;
     padding-bottom: 0px;
     margin-bottom: 1px;
-    margin-top: 0px;
+    margin-top: 10px;
     padding-left: 5px;
 }
+
 
 
 body{
@@ -169,8 +173,8 @@ body{
   height: 100vh;
   background-image: url('../ui_profile_pic_3x.jpg');
   background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 130%; 
+    background-position: center;
+    background-position-y: 120%; 
     background-size: contain;   
     line-height: 1.8;
 }
@@ -272,17 +276,16 @@ p {color: #525151;
     
    #bio{
     color: #000000;
-    padding: 20px;
+    padding: 0px;
     margin: 0;
-    margin-top: 170px;
+    margin-top: 0px;
     text-align: left;
     }
 
     p.indent {color: #878484;
     text-align: justify;
+    word-break:keep-all;
     margin: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
     margin-top: 0px;
     font-size: 16px;
     font-weight: 0px;
@@ -319,7 +322,27 @@ p {color: #525151;
     
 
     .button.resume:hover{
-        background-color: #e01f1f;
+     display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-weight: 400;
+    margin-left: auto;
+    color: #5d5b5b;
+    padding: 20px;
+     text-align: center;
+        font-weight: 400;
+     text-decoration: none;
+         padding: 15px;
+         border-radius: 21px;
+        outline-style:solid; 
+        outline-width: thin;
+        outline-color: #9c9b9b71;
+        transition-duration: 1s;
+        transition-property: opacity .1;
+        align-content: center;
+    transition-duration: 1s;
+    transition-property: opacity .1;
         
         
     }
@@ -467,7 +490,7 @@ text-decoration: none;
 
   }
   a:focus {
-    color: #1ea943;
+    color: none;
 text-decoration: none;
   }
 
