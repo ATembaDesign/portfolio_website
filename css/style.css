@@ -703,7 +703,8 @@ height: auto;
   background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;   
-    background-position-y: 75%;
+    background-position-y: 250%;
+    background-position-x: 40%;
     line-height: 1.8;
     object-fit: contain;
 
