@@ -79,7 +79,7 @@ ul{
 li {
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     padding-top: 0px;
     list-style: none;
     
@@ -109,11 +109,30 @@ letter-spacing: 4px;
 
   h1 {
     color: #e7e7e7;
-     text-shadow: 2px 2px 8px rgb(43, 43, 43);
+    text-shadow: 2px 2px 8px rgb(43, 43, 43);
     font-size: 28px;
+    font-weight: 700;
     text-align: center;
     letter-spacing: 5px;
     line-height: 1.8;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+   }
+
+     h8 {
+    color: #e7e7e7;
+    text-shadow: 2px 2px 8px rgb(43, 43, 43);
+    font-size: 40px;
+    font-;
+    text-align: center;
+    line-height: 1.8;
+    padding: auto;
+    margin: auto;
+    position: absolute;
+    top: 89%;
+    left: 10%;
+
     
    }
 
@@ -157,8 +176,8 @@ letter-spacing: 4px;
    text-align: center;
     color: #ffffff;  
     text-shadow: 2px 2px 5px rgba(9, 9, 9, 0.76); 
-    font-size: 28px;
-    letter-spacing: 8px;
+    font-size: 48px;
+    letter-spacing: px;
     padding: auto;
     padding-bottom: 0px;
     margin-bottom: 1px;
@@ -282,10 +301,9 @@ p {color: #bababa;
     
        #hero {
        letter-spacing: 5px;
-    line-height: 1.8;
     width: 100%;
     position: absolute;
-    top: 24%;
+    top: 25%;
    }
 
     
@@ -299,14 +317,14 @@ p {color: #bababa;
 
 p.indent {color: #ece8e8;
     background-color: transparent;
-    text-align: justify;
+    text-align: left;
     letter-spacing: 2px;
     padding: 20px;
     word-break:normal;
     margin: 0px;
     font-size: 17px;
     font-style: normal;
-    line-height: 1.0;
+    line-height: 2.0;
     position: absolute;
     top: 80%;
     margin-bottom: 40px;
@@ -332,7 +350,7 @@ p.copyright {color: #ffffff;
     border-radius: 4px;
     font-weight: 400;
     margin-left: auto;
-    margin-top: 55px;
+    margin-top: 200px;
     color: #ffffff;
     padding: 20px;
      text-align: center;
