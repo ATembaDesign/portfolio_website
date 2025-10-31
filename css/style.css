@@ -124,7 +124,6 @@ letter-spacing: 4px;
     color: #e7e7e7;
     text-shadow: 2px 2px 8px rgb(43, 43, 43);
     font-size: 40px;
-    font-;
     text-align: center;
     line-height: 1.8;
     padding: auto;
@@ -540,7 +539,7 @@ margin: auto;
 
 
   a:hover{
-color: #9f4773f8;
+color: #14c451f8;
 text-decoration: none;
 
   }
@@ -550,7 +549,7 @@ text-decoration: none;
   }
 
     .button:hover{
-       background-color: #4b0a3c;
+       background-color: #d8320d;
         color: #ffffff;
         font-weight: 400;
 
@@ -571,7 +570,9 @@ text-decoration: none;
      
 
 nav > ul> li a:hover{
-    color: #9f4773f8;
+    color: #eeb518f8;
+     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.76); 
+
 }
 
 
@@ -584,11 +585,11 @@ nav > ul> li a:hover{
 
 /*Large devices (1024px or larger)*/
  
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1440px){
     
        .container{
         padding: auto;
-        background-color: transparent;
+        background-color: #0e3aea;
         padding-bottom: 0px;
         max-width: 100%;
         align-items: center;
@@ -750,7 +751,8 @@ height: auto;
   font-weight: 300;
   font-style: normal;
   height: 100vh;
-  background-image: url('../ui_profile_pic_3x.jpg');
+   background-image: url('../bg_1200_2x.png');
+  background-color: #0A090C;
   background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;   
@@ -1131,4 +1133,3 @@ text-decoration: none;
     .button.email{
         font-size: 20px;
         padding: 15px;
-    
