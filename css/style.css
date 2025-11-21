@@ -17,9 +17,6 @@ Tertiary Color (White):#ffffff;
 
 
 
-html{
-    overflow-x: hidden;
-}
 
 .container{
         display: inline-block;
@@ -32,20 +29,20 @@ html{
  
 
        main{
-   padding: auto;
-   padding-top: 160%;
+   padding-top: 50%;
     width: 100%;
     }
 
     
 header{
-background-color: transparent;
+background-color: #000000;
 display: flex;
 align-items: center;
 justify-content: space-between;
 max-width: 1200px;
 margin: 0 auto;
 padding: 10px;
+
 
 }
 
@@ -67,7 +64,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin-top: 0px;
-    padding-left: 15%;
+    padding-left: 1%;
    
 }
 
@@ -108,21 +105,18 @@ letter-spacing: 4px;
 }
 
   h1 {
-    color: #e7e7e7;
-    text-shadow: 2px 2px 8px rgb(43, 43, 43);
+    color: #000000;
     font-size: 28px;
     font-weight: 700;
     text-align: center;
     letter-spacing: 5px;
     line-height: 1.8;
-    margin-top: 20px;
     margin-bottom: 0px;
     
    }
 
      h8 {
-    color: #e7e7e7;
-    text-shadow: 2px 2px 8px rgb(43, 43, 43);
+    color: #000000;
     font-size: 40px;
     text-align: center;
     line-height: 1.8;
@@ -149,7 +143,7 @@ letter-spacing: 4px;
 
    h3{ 
     text-align: center;
-    color:#ffffff;
+    color:#000000;
     font-style:normal;
     font-weight: 500px;
     letter-spacing: 8px;
@@ -204,12 +198,7 @@ body{
   font-weight: 300;
   font-style: normal;
   height: 100vh;
-  background-image: url('../bg_1200_2x.png');
-  background-color: #0A090C;
-  background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: 62%; 
-    background-size: 100%;   
+  background-color: #ffffff;  
     line-height: 1.8;
 }
 
@@ -286,14 +275,14 @@ p {color: #bababa;
         margin-left: 20%;
         text-align: center;
         font-weight: 400;
-        color: #ffffff;
+        color: #000000;
         font-weight: 300px;
         text-decoration: none;
          padding: 20px;
          border-radius: 27px;
         outline-style:solid; 
         outline-width: thin;
-        outline-color: #ffffff;
+        outline-color: #000000;
         transition-duration: 1s;
         transition-property: opacity .1;
         align-content: center;}
@@ -302,7 +291,7 @@ p {color: #bababa;
        letter-spacing: 5px;
     width: 100%;
     position: absolute;
-    top: 25%;
+    top: 30%;
    }
 
     
@@ -359,7 +348,7 @@ p.copyright {color: #ffffff;
          border-radius: 21px;
         outline-style:solid; 
         outline-width: thin;
-        outline-color: #ffffff;
+        outline-color: #000000;
         transition-duration: 1s;
         transition-property: opacity .1;
         align-content: center;
