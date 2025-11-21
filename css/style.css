@@ -19,7 +19,6 @@ Tertiary Color (White):#ffffff;
 
 
 .container{
-        display: inline-block;
         width: 100%;
         
         
@@ -75,6 +74,7 @@ ul{
 
 li {
     justify-content: center;
+    color: #000000;
     align-items: center;
     padding: 20px;
     padding-top: 0px;
@@ -107,17 +107,19 @@ letter-spacing: 4px;
   h1 {
     color: #000000;
     font-size: 28px;
-    font-weight: 700;
-    text-align: center;
+    font-weight: 100;
+    text-align: left;
     letter-spacing: 5px;
     line-height: 1.8;
     margin-bottom: 0px;
+    margin-left: 10%;
     
    }
 
      h8 {
-    color: #000000;
+    color: #1D191D;
     font-size: 40px;
+    font-weight: 00;
     text-align: center;
     line-height: 1.8;
     padding: auto;
@@ -125,8 +127,6 @@ letter-spacing: 4px;
     position: absolute;
     top: 89%;
     left: 10%;
-
-    
    }
 
     h2 {
@@ -155,7 +155,7 @@ letter-spacing: 4px;
 
    h4 {  
    text-align: center;
-    color: #ffffff;   
+    color: #000000;   
     font-size: 32px;
     letter-spacing: 8px;
     padding: auto;
@@ -167,21 +167,20 @@ letter-spacing: 4px;
     
    h5 {  
    text-align: center;
-    color: #ffffff;  
-    text-shadow: 2px 2px 5px rgba(9, 9, 9, 0.76); 
+    color: #000000;  
     font-size: 48px;
     letter-spacing: px;
     padding: auto;
     padding-bottom: 0px;
     margin-bottom: 1px;
     margin: 4%;
-    padding-left: 5px;
+    padding-left: 25px;
 }
+
 
    h6 {  
    text-align: center;
-    color: #ffffff;  
-    text-shadow: 2px 2px 5px rgba(9, 9, 9, 0.76); 
+    color: #000000;  
     font-size: 28px;
     font-size:2em;
     letter-spacing: 8px;
@@ -202,7 +201,13 @@ body{
     line-height: 1.8;
 }
 
-
+#bg {
+    width: 65%;
+    position: absolute;
+    float: right;
+    top: 56%;
+    left: 30%;
+}
 
     img {
     width: 250px;
@@ -291,7 +296,7 @@ p {color: #bababa;
        letter-spacing: 5px;
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 35%;
    }
 
     
@@ -303,24 +308,26 @@ p {color: #bababa;
     text-align: left;
     }
 
-p.indent {color: #ece8e8;
+
+
+p.indent {color: #000000;
     background-color: transparent;
     text-align: left;
     letter-spacing: 2px;
-    padding: 20px;
+    padding: 10px;
     word-break:normal;
     margin: 0px;
     font-size: 17px;
     font-style: normal;
     line-height: 2.0;
     position: absolute;
-    top: 80%;
+    top: 55%;
     margin-bottom: 40px;
 
 }
 
 
-p.copyright {color: #ffffff;
+p.copyright {color: #000000;
     text-align: center;
     width: 100%;
     word-wrap: break-word;
@@ -334,12 +341,12 @@ p.copyright {color: #ffffff;
     .button.resume{
     display: flex;
     justify-content: space-around;
-    background-color: #16191c;
+    background-color: #ffffff;
     border-radius: 4px;
     font-weight: 400;
     margin-left: auto;
-    margin-top: 200px;
-    color: #ffffff;
+    margin-top: 550px;
+    color: #000000;
     padding: 20px;
      text-align: center;
         font-weight: 400;
@@ -394,9 +401,8 @@ p.copyright {color: #ffffff;
  
     
     footer {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.921) , rgba(3, 37, 77, 0.712));
+        background-color: transparent;
         color: #FFFFFF;
-        text-shadow: 2px 2px 8px rgb(43, 43, 43);
     font-size: 28px;
         text-align: center;
         padding-bottom: 20px;
@@ -419,21 +425,6 @@ footer_connect{
 }
 
    
-#about{
-background-color: #ffffff;
-text-align: left;
-word-spacing: 2px;
-line-height: 1.8;
-padding-top: 10px;
-padding-bottom: 10px;  
-margin: auto; 
-}
-
-
-
-
-
-
 
        .icon_flex {
         display: flex;
@@ -538,7 +529,7 @@ text-decoration: none;
   }
 
     .button:hover{
-       background-color: #d8320d;
+      
         color: #ffffff;
         font-weight: 400;
 
@@ -559,7 +550,6 @@ text-decoration: none;
      
 
 nav > ul> li a:hover{
-    color: #eeb518f8;
      text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.76); 
 
 }
