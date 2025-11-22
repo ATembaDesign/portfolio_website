@@ -106,8 +106,8 @@ letter-spacing: 4px;
 
   h1 {
     color: #000000;
-    font-size: 28px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight: 450;
     text-align: left;
     letter-spacing: 5px;
     line-height: 1.8;
@@ -117,11 +117,11 @@ letter-spacing: 4px;
    }
 
      h8 {
-    color: #1D191D;
+    color: #000000;
     font-size: 40px;
-    font-weight: 00;
+    font-weight: 450;
     text-align: left;
-    line-height: 1.8;
+    line-height: 2.2;
     margin-left: 3%;
     position: absolute;
     top: 72%;
@@ -318,7 +318,7 @@ p {color: #bababa;
        letter-spacing: 5px;
     width: 100%;
     position: absolute;
-    top: 32%;
+    top: 29%;
    }
 
     
