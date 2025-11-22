@@ -112,11 +112,22 @@ letter-spacing: 4px;
     letter-spacing: 5px;
     line-height: 1.8;
     margin-bottom: 0px;
-    margin-left: 10%;
+    margin-left: 3%;
     
    }
 
      h8 {
+    color: #1D191D;
+    font-size: 40px;
+    font-weight: 00;
+    text-align: left;
+    line-height: 1.8;
+    margin-left: 3%;
+    position: absolute;
+    top: 72%;
+   }
+
+   h9 {
     color: #1D191D;
     font-size: 40px;
     font-weight: 00;
@@ -125,10 +136,20 @@ letter-spacing: 4px;
     padding: auto;
     margin: auto;
     position: absolute;
-    top: 89%;
+    top: 50%;
     left: 10%;
    }
 
+      h10 {
+    color: #ae48ae;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: left;
+    line-height: 1.8;
+    padding: auto;
+    margin: auto;
+
+   }
     h2 {
         text-align: center;
     color:#cdd2ce;
@@ -203,9 +224,10 @@ body{
 
 #bg {
     width: 65%;
+    height: auto;
     position: absolute;
     float: right;
-    top: 56%;
+    top: 50%;
     left: 30%;
 }
 
@@ -296,7 +318,7 @@ p {color: #bababa;
        letter-spacing: 5px;
     width: 100%;
     position: absolute;
-    top: 35%;
+    top: 32%;
    }
 
     
@@ -321,7 +343,7 @@ p.indent {color: #000000;
     font-style: normal;
     line-height: 2.0;
     position: absolute;
-    top: 55%;
+    top: 50%;
     margin-bottom: 40px;
 
 }
@@ -516,17 +538,12 @@ footer_connect{
     transition-delay: 2s;
      }
 
+nav > ul> li a:focus {
+    color: #000000;
+    outline: 8px solid rgba(255, 255, 255, 0.784);
+    border-radius: 9px;
+}
 
-
-  a:hover{
-color: #14c451f8;
-text-decoration: none;
-
-  }
-  a:focus {
-    color: none;
-text-decoration: none;
-  }
 
     .button:hover{
       
@@ -550,7 +567,7 @@ text-decoration: none;
      
 
 nav > ul> li a:hover{
-     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.76); 
+     text-shadow: 0px 0px 10px rgba(222, 35, 35, 0.76); 
 
 }
 
