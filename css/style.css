@@ -539,11 +539,19 @@ footer_connect{
      }
 
 nav > ul> li a:focus {
-    color: #000000;
-    outline: 8px solid rgba(255, 255, 255, 0.784);
-    border-radius: 9px;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+
+
 }
 
+
+  a:focus {
+text-decoration: underline;
+outline: #0e3aea;
+
+
+  }
 
     .button:hover{
       
