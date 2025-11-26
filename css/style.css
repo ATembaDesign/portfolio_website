@@ -20,8 +20,6 @@ Tertiary Color (White):#ffffff;
 
 .container{
         width: 100%;
-        
-        
     }
 
 
@@ -34,7 +32,7 @@ Tertiary Color (White):#ffffff;
 
     
 header{
-background-color: #000000;
+background-color: #1b1b1b;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -66,11 +64,6 @@ nav {
    
 }
 
-ul{ 
-  margin-top: 1%;
-  margin-left: 20%;
-   
-}
 
 li {
     justify-content: center;
@@ -106,23 +99,23 @@ letter-spacing: 4px;
 
   h1 {
     color: #000000;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 450;
     text-align: left;
     letter-spacing: 5px;
     line-height: 1.8;
     margin-bottom: 0px;
-    margin-left: 3%;
+    margin-left: 1%;
     
    }
 
      h8 {
     color: #000000;
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 450;
     text-align: left;
     line-height: 2.2;
-    margin-left: 3%;
+    margin-left: 1%;
     position: absolute;
     top: 72%;
    }
@@ -140,16 +133,53 @@ letter-spacing: 4px;
     left: 10%;
    }
 
-      h10 {
-    color: #ae48ae;
-    font-size: 40px;
-    font-weight: 800;
-    text-align: left;
+    h10 {
+        background-color: #000000;
+    color: #ffffff;
+    font-size: 24px;
+    font-style: italic;
+    text-align: right;
     line-height: 1.8;
-    padding: auto;
+    padding: 10px;
     margin: auto;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+   }
+
+   h11 {
+            background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    line-height: 1.8;
+    padding: 10px;
+    margin: auto;
+    position: absolute;
+    right: 50px;
+    top: 130px;
 
    }
+
+    h12 {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: right;
+    line-height: 1.8;
+    padding: 1px;
+    margin: auto;
+    position: absolute;
+    left: 10px;
+    top: 520px;
+
+
+   }
+
+   
     h2 {
         text-align: center;
     color:#cdd2ce;
@@ -177,7 +207,7 @@ letter-spacing: 4px;
    h4 {  
    text-align: center;
     color: #000000;   
-    font-size: 32px;
+    font-size: 30px;
     letter-spacing: 8px;
     padding: auto;
     padding-bottom: 0px;
@@ -222,17 +252,18 @@ body{
     line-height: 1.8;
 }
 
+
 #bg {
-    width: 65%;
+    width: 350px;
     height: auto;
     position: absolute;
     float: right;
-    top: 50%;
-    left: 30%;
+    top: 420px;
+    left: 18px;
 }
 
     img {
-    width: 250px;
+    width: 220px;
     height: auto;
      display: block;
   margin: auto;
@@ -263,7 +294,7 @@ p {color: #161616;
    .row1 {
         display: inline-block;
         justify-content: space-evenly;
-        width: 100%;
+        width: 350px;
         padding-top: 0px;
         padding-bottom: 0px;
         padding-left: 10px;
@@ -275,7 +306,7 @@ p {color: #161616;
             .row2 {
         display: inline-block;
         justify-content: center;
-        width: 100%;
+        width: 350px;
         padding-top: 0px;
         padding-bottom: 0px;
         padding-left: 10px;
@@ -286,7 +317,7 @@ p {color: #161616;
         display: inline-block;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 350px;
         height: 100%;
         padding-top: 0px;
         padding-bottom: 0px;
@@ -316,7 +347,7 @@ p {color: #161616;
     
        #hero {
        letter-spacing: 5px;
-    width: 100%;
+    width: 400px;
     position: absolute;
     top: 29%;
    }
@@ -350,8 +381,11 @@ p.indent {color: #000000;
 
 
 p.copyright {color: #000000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     text-align: center;
-    width: 100%;
+    width: 300px;
     word-wrap: break-word;
     font-size: 16px;
     font-weight: 300px;
@@ -361,20 +395,17 @@ p.copyright {color: #000000;
  
 
     .button.resume{
+        width: 200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #ffffff;
     border-radius: 4px;
     font-weight: 400;
-    margin-left: auto;
-    margin-top: 550px;
+    margin-top: 420px;
     color: #000000;
     padding: 20px;
      text-align: center;
-        font-weight: 400;
-     text-decoration: none;
-         padding: 15px;
-         border-radius: 21px;
+         border-radius: 27px;
         outline-style:solid; 
         outline-width: thin;
         outline-color: #000000;
@@ -384,6 +415,9 @@ p.copyright {color: #000000;
     transition-duration: 1s;
     transition-property: opacity .1;
 }
+
+
+
     
 
     .button.resume:hover{
@@ -425,26 +459,15 @@ p.copyright {color: #000000;
     footer {
         background-color: transparent;
         color: #FFFFFF;
-    font-size: 28px;
         text-align: center;
         padding-bottom: 20px;
-                }
+        margin-top: 20px;
+                }       
 
         .icons {
             margin: 0 10px;
         }
-footer_connect{
-    color: #ffffff;
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    text-align: center;
-    background: none;
-    margin-top: 100px;
-    padding-top: 20px;
-    padding-bottom: 10px;
 
-}
 
    
 
@@ -467,13 +490,12 @@ footer_connect{
 
 .icon_footer {
             display: flex;
-            flex-direction: row;
-            column-gap: 60px;
+            flex-direction: column;
+            row-gap: 60px;
             justify-content: space-evenly;
-            align-content: center;
+            align-content: left;
             padding: auto;
-            padding-top: 4cqb;
-            margin-top: 3%;
+            margin-top: 40px;
             margin-bottom: 15%;
            
             
@@ -554,9 +576,19 @@ outline: #0e3aea;
   }
 
     .button:hover{
-      
-        color: #ffffff;
-        font-weight: 400;
+            color: #ffffff;
+    padding: 20px;
+   /* From https://css.glass */
+background: rgb(218, 223, 225);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.9px);
+-webkit-backdrop-filter: blur(11.9px);
+border: 1px solid rgba(255, 246, 246, 0.29);
+     border-radius: 60px;
+        outline-style:solid; 
+        outline-width: thin;
+        outline-color: #9c9b9b71;
 
     }
 
@@ -575,8 +607,23 @@ outline: #0e3aea;
      
 
 nav > ul> li a:hover{
-     text-shadow: 0px 0px 10px rgba(222, 35, 35, 0.76); 
+            color: #ffffff;
+    padding: 20px;
+   /* From https://css.glass */
+background: rgb(218, 223, 225);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.9px);
+-webkit-backdrop-filter: blur(11.9px);
+border: 1px solid rgba(255, 246, 246, 0.29);
+     border-radius: 60px;
+        outline-style:solid; 
+        outline-width: thin;
+        outline-color: #9c9b9b71;
+                transition-duration: 1s;
+        transition-property: opacity .1;
 
+     
 }
 
 
@@ -593,31 +640,46 @@ nav > ul> li a:hover{
     
        .container{
         padding: auto;
-        background-color: #0e3aea;
         padding-bottom: 0px;
-        max-width: 100%;
+        max-width: 1440px;
         align-items: center;
         align-content: center;
         margin-left: 3%;
 
 
-
-
-        
  
+    }
+
+    #bg {
+    width: 700px;
+    height: auto;
+    position: absolute;
+    float: right;
+    top: 20%;
+    left: 5%;
+}
+
+
+    .horizontal { 
+  width: 1200px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  overflow-x: transparent;
+  gap: 1rem;
+
     }
 
            main{
    padding: auto;
-   padding-top: 48%;
-    width: 100%;
-        
-   
-    }
+   padding-top: 22%;
+    width: 800px;
+}
 
     header{
-        align-content: left;
-    padding-left: 5px;
+
+align-content: left;
+ padding-left: 5px;
 background-color: transparent;
 padding: 0px;
 margin: 0px;
@@ -626,29 +688,34 @@ margin: 0px;
 
 
 img.logo {
-    max-width: 100%;
-    width: 15%;
+    max-width: 100px;
+    max-height: auto;
     margin-left: 0%;
 
     
 }
+
+
     nav {
-    margin-top: 0px;
-   
+    width: 100%;
+    position: absolute;
+    top: 3%;
+    left: 28%;
 }
 
 ul{ 
-    list-style: none;
-    
+    width: 100%;
+    list-style: none;   
 }
 
 li {
-    float: right;
-    display: flex;
+    width: 100%;
+    float: none;
+    display: inline;
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    list-style: none;
+    padding: 4%;
 
 }
 
@@ -663,8 +730,9 @@ ul.skills{
     list-style: none;}
 
 nav > ul> li a{
+    width: 100%;
     padding: 0px;
-     font-size: 1rem;
+    font-size: 1rem;
     color: #2c2b2b;
     text-transform: uppercase;
     font-weight: 400;
@@ -672,20 +740,36 @@ nav > ul> li a{
     padding-left: 0px;
 }
 
+       #hero {
+       letter-spacing: 5px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 16%;
+   }
+
   h1 {
-    font-size: 2rem;
-    font-size: clamp(1rem, -0.717rem + 5.4700vw, 4rem);
-    color: #ffffff;
-    font-size: 28px;
+    font-size: 64px;
+    color: #000000;
     text-align: center;
     letter-spacing: 5px;
     line-height: 1.8;
-    margin-top: 8%;
-    margin-right: 48%;
-    margin-left: 0%;
-    margin-bottom: 20px;
-
+    margin-right: 10%;
    }
+
+        h8 {
+    color: #000000;
+    font-size: 64px;
+    font-weight: 450;
+    text-align: left;
+    line-height: 2.2;
+    margin-left: 0%;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+   }
+
 
     h2 {
         text-align: center;
@@ -705,7 +789,7 @@ nav > ul> li a{
     font-style:normal;
     font-weight: 500px;
     letter-spacing: 8px;
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 20px;
@@ -713,15 +797,16 @@ nav > ul> li a{
    }
 
    h4 {  
-   text-align: left;
-    color: #000000;   
-    font-size: 48px;
-    letter-spacing: 8px;
+    align-content: center;
+    align-items: center;
+   text-align: center;
+    color: #000000; 
+    font-weight: 100;  
+    font-size: 64px;
+    letter-spacing: 5px;
     padding: auto;
-    padding-bottom: 0px;
-    padding-left: 29%;
-    margin-bottom: 1px;
-    margin-top: 0px;
+    padding-bottom: 0px
+ 
 }
     
    h5 {  
@@ -748,6 +833,49 @@ nav > ul> li a{
     margin-top: 10px;
     padding: auto;
 }
+
+      h10 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 100;
+    text-align: right;
+    line-height: 1.8;
+    padding: auto;
+    margin: auto;
+    position: absolute;
+    right: 250px;
+    top: 100px;
+   }
+
+   h11 {
+        color: #000000;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: right;
+    line-height: 1.8;
+    padding: auto;
+    margin: auto;
+    position: absolute;
+    right: 250px;
+    top: 200px;
+
+   }
+
+    h12 {
+        color: #000000;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: right;
+    line-height: 1.8;
+    padding: auto;
+    margin: auto;
+    position: absolute;
+    right: 180px;
+    top: 300px;
+
+
+   }
+   
 body{
 width: 100%;
 height: auto;
@@ -755,28 +883,20 @@ height: auto;
   font-weight: 300;
   font-style: normal;
   height: 100vh;
-   background-image: url('../bg_1200_2x.png');
-  background-color: #0A090C;
-  background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;   
-    background-position-y: 80%;
-    background-position-x: 50%;
+  background-color: #ffffff;
     line-height: 1.8;
     object-fit: contain;
-
 }
 
 
-
     img {
-    width: 100px;
+    width: 300px;
     height: auto;
-     display: block;
+  display: block;
   margin: auto;
-  margin-right: 10px;
-  margin-left: 100px;
-  justify-content: center;    
+  margin-right: 0px;
+  margin-left: 0px;
+  justify-content: left;    
   }
 
 
@@ -793,7 +913,8 @@ p {color: #525151;
 }
 
 p.indent {color: #878484;
-    text-align: center;
+    width: 500px;
+    text-align: left;
     word-break: keep-all;
     margin: 0px;
     margin-top: 0%;
@@ -819,47 +940,44 @@ p.copyright {color: #ffffff;
 
 
     .row{
-        width: 100%;
-        align-content: center;
-        text-align: center;
+        width: 500px;
+        align-content: left;
+        text-align: left;
         padding-bottom: 0px;
-        margin-top: 40px;  
+        margin-top: 300px;  
     }
 
    .row1 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: left;
-        width: 50%;
+        width: 700px;
         padding-top: 0px;
         padding-bottom: 0px;
-        padding-left: 18%;
+        padding-left: 110px;
         margin-top: 0px; 
         
     }
 
             .row2 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: left;
-        width: 50%;
+        width: 700px;
         padding-top: 0px;
         padding-bottom: 0px;
-        padding-left: 18%;
         margin-top: 0px; 
     }
 
              .row3 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: left;
-        width: 50%;
-        height: 100%;
+        width: 1200px;
         padding-top: 0px;
         padding-bottom: 0px;
-        padding-left: 18%;
+        padding-left: 1%;
         margin-top: 0px; 
-        margin-bottom: 20px;
     }
 
 
@@ -873,25 +991,26 @@ p.copyright {color: #ffffff;
         color: #5d5b5b;
         font-weight: 300px;
         text-decoration: none;
-         padding: 20px;
+         padding: 22px;
          border-radius: 21px;
         outline-style:solid; 
         outline-width: thin;
-        outline-color: #9c9b9b71;
+        outline-color: #000000;
         transition-duration: 1s;
         transition-property: opacity .1;
-        align-content: center;}
+        align-content: left;
+
+    }
     
      .button.resume{
-    display: flex;
-    justify-content: space-evenly;
+        width: 200px;
+        position: absolute;
+        right: 260px;
+        top: 10px;
     background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    font-weight: 400;
+    font-weight: 400px;
     color: #5d5b5b;
-     text-align: center;
-        font-weight: 400;
-     text-decoration: none;
+     text-align: left;
          border-radius: 21px;
         outline-style:solid; 
         outline-width: thin;
@@ -904,28 +1023,24 @@ p.copyright {color: #ffffff;
 }
     
 
+
+
+
     .button.resume:hover{
-     display: flex;
-    justify-content: space-around;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    font-weight: 400;
-    margin-left: auto;
-    color: #5d5b5b;
+             color: #ffffff;
     padding: 20px;
-     text-align: center;
-        font-weight: 400;
-     text-decoration: none;
-         padding: 15px;
-         border-radius: 21px;
+   /* From https://css.glass */
+background: rgb(218, 223, 225);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.9px);
+-webkit-backdrop-filter: blur(11.9px);
+border: 1px solid rgba(255, 246, 246, 0.29);
+     border-radius: 60px;
         outline-style:solid; 
         outline-width: thin;
         outline-color: #9c9b9b71;
-        transition-duration: 1s;
-        transition-property: opacity .1;
-        align-content: center;
-    transition-duration: 1s;
-    transition-property: opacity .1;
+
         
         
     }
@@ -939,40 +1054,19 @@ p.copyright {color: #ffffff;
  
     
     footer {
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.921) , rgba(255, 255, 255, 0.712));
-        color: #FFFFFF;
+        position: absolute;
+        right: 400px;
+        align-content: center;
+        align-items: center;
         text-align: center;
+        padding: auto ;
         padding-bottom: 20px;
-                }
+        }
+
 
         .icons {
             margin: 0 10px;
         }
-footer_connect{
-    color: #ffffff;
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 8px;
-    text-align: center;
-    background: none;
-    margin-top: 100px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-
-}
-
-   
-#about{
-background-color: #ffffff;
-text-align: left;
-word-spacing: 2px;
-line-height: 1.8;
-padding-top: 10px;
-padding-bottom: 10px;  
-margin: auto; 
-}
-
-
 
 
 
@@ -992,20 +1086,7 @@ margin: auto;
          
          }
 
-
-
-.icon_footer {
-            display: flex;
-            flex-direction: row;
-            align-content: center;
-            column-gap: 6%;
-            justify-content: left;
-            padding-left: 28%;
-            margin-top: 0%;
-            padding-top: 0%;
-             }
-
-     .icon_flex {
+              .icon_flex {
         display: flex;
         flex-direction: row;
         margin-left: auto;
@@ -1019,6 +1100,19 @@ margin: auto;
     
          
          }
+
+
+
+
+.icon_footer {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            column-gap: 250px;
+            justify-content: center;
+            padding-top: 30px;
+             }
+
 
             .scrolltotop{
     animation-name: appear;
