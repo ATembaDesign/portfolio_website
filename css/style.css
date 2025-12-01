@@ -26,7 +26,7 @@ Tertiary Color (White):#ffffff;
  
 
        main{
-   padding-top: 50%;
+   padding-top: 40%;
     width: 100%;
     }
 
@@ -103,7 +103,6 @@ letter-spacing: 4px;
     font-weight: 450;
     text-align: left;
     letter-spacing: 5px;
-    line-height: 1.8;
     margin-bottom: 0px;
     margin-left: 1%;
     
@@ -117,7 +116,7 @@ letter-spacing: 4px;
     line-height: 2.2;
     margin-left: 1%;
     position: absolute;
-    top: 72%;
+    top: 90%;
    }
 
    h9 {
@@ -134,43 +133,41 @@ letter-spacing: 4px;
    }
 
     h10 {
-        background-color: #000000;
-    color: #ffffff;
-    font-size: 24px;
-    font-style: italic;
-    text-align: right;
-    line-height: 1.8;
-    padding: 10px;
-    margin: auto;
-    position: absolute;
-    right: 70px;
-    top: 50px;
-   }
-
-   h11 {
-            background-color: #000000;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     font-style: italic;
     text-align: right;
     line-height: 1.8;
-    padding: 10px;
+    padding: 1px;
+    padding-left: 24px;
     margin: auto;
     position: absolute;
-    right: 50px;
-    top: 130px;
-
+    right: 90px;
+    top: 50px;
    }
 
-    h12 {
-    background-color: #000000;
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 100;
+   h11 {
+    color: #000000;
+    font-size: 20px;
     font-style: italic;
     text-align: right;
     line-height: 1.8;
     padding: 1px;
+    margin: auto;
+    position: absolute;
+    right: 80px;
+    top: 135px;
+
+   }
+
+    h12 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: right;
+    line-height: 1.8;
+    padding: 5px;
     margin: auto;
     position: absolute;
     left: 10px;
@@ -244,6 +241,7 @@ letter-spacing: 4px;
 
 
 body{
+    overflow-x: hidden;
   font-family: "Lexend", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -349,7 +347,7 @@ p {color: #161616;
        letter-spacing: 5px;
     width: 400px;
     position: absolute;
-    top: 29%;
+    top: 30%;
    }
 
     
@@ -401,7 +399,7 @@ p.copyright {color: #000000;
     background-color: #ffffff;
     border-radius: 4px;
     font-weight: 400;
-    margin-top: 420px;
+    margin-top: 460px;
     color: #000000;
     padding: 20px;
      text-align: center;
@@ -561,8 +559,7 @@ p.copyright {color: #000000;
      }
 
 nav > ul> li a:focus {
-    text-decoration: underline;
-    text-decoration-color: #ffffff;
+    color: transparent;
 
 
 }
@@ -574,24 +571,6 @@ outline: #0e3aea;
 
 
   }
-
-    .button:hover{
-            color: #ffffff;
-    padding: 20px;
-   /* From https://css.glass */
-background: rgb(218, 223, 225);
-border-radius: 10px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(11.9px);
--webkit-backdrop-filter: blur(11.9px);
-border: 1px solid rgba(255, 246, 246, 0.29);
-     border-radius: 60px;
-        outline-style:solid; 
-        outline-width: thin;
-        outline-color: #9c9b9b71;
-
-    }
-
 
 
     .button.email{
@@ -607,21 +586,7 @@ border: 1px solid rgba(255, 246, 246, 0.29);
      
 
 nav > ul> li a:hover{
-            color: #ffffff;
-    padding: 20px;
-   /* From https://css.glass */
-background: rgb(218, 223, 225);
-border-radius: 10px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(11.9px);
--webkit-backdrop-filter: blur(11.9px);
-border: 1px solid rgba(255, 246, 246, 0.29);
-     border-radius: 60px;
-        outline-style:solid; 
-        outline-width: thin;
-        outline-color: #9c9b9b71;
-                transition-duration: 1s;
-        transition-property: opacity .1;
+            color:transparent;
 
      
 }
@@ -1228,6 +1193,3 @@ text-decoration: none;
 
 
 
-    .button.email{
-        font-size: 20px;
-        padding: 15px;
