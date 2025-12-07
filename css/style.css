@@ -108,6 +108,17 @@ letter-spacing: 4px;
     
    }
 
+     h1.prototype {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 450;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+    
+   }
+
      h8 {
     color: #000000;
     font-size: 24px;
@@ -248,6 +259,15 @@ body{
   height: 100vh;
   background-color: #ffffff;  
     line-height: 1.8;
+}
+
+#gc {
+    width: 350px;
+    position: relative;
+   top: 0px;
+
+
+
 }
 
 
@@ -474,7 +494,8 @@ p.copyright {color: #000000;
         flex-direction: row;
         margin-left: auto;
         margin-right: auto;
-        margin: 10px;
+        margin-top: 40px;
+        margin-bottom: 100px;
         padding: 10px;
         padding-left: 10px;
         text-align: center;
@@ -586,7 +607,21 @@ outline: #0e3aea;
      
 
 nav > ul> li a:hover{
-            color:transparent;
+             color: #ffffff;
+    padding: 20px;
+background: rgb(218, 223, 225);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.9px);
+-webkit-backdrop-filter: blur(11.9px);
+border: 1px solid rgba(255, 246, 246, 0.29);
+     border-radius: 60px;
+        outline-style:solid; 
+        outline-width: thin;
+        outline-color: #9c9b9b71;   
+         transition-duration: 1s;
+        transition-property: opacity .1;
+        
 
      
 }
@@ -666,11 +701,13 @@ img.logo {
     position: absolute;
     top: 3%;
     left: 28%;
+    
 }
 
 ul{ 
     width: 100%;
-    list-style: none;   
+    list-style: none;  
+     
 }
 
 li {
@@ -716,7 +753,7 @@ nav > ul> li a{
 
   h1 {
     font-size: 64px;
-    color: #000000;
+    color: #4c4a4a;
     text-align: center;
     letter-spacing: 5px;
     line-height: 1.8;
@@ -724,7 +761,7 @@ nav > ul> li a{
    }
 
         h8 {
-    color: #000000;
+    color: #4c4a4a;
     font-size: 64px;
     font-weight: 450;
     text-align: left;
@@ -765,7 +802,7 @@ nav > ul> li a{
     align-content: center;
     align-items: center;
    text-align: center;
-    color: #000000; 
+    color: #4c4a4a; 
     font-weight: 100;  
     font-size: 64px;
     letter-spacing: 5px;
@@ -789,9 +826,11 @@ nav > ul> li a{
 }
 
    h6 {  
+    display: flex;
+    justify-content: center;
    text-align: center;
     color: #1b051c;  
-    font-size: 22px;
+    font-size: 32px;
     letter-spacing: 8px;
     padding-bottom: 0px;
     margin-bottom: 1px;
@@ -853,6 +892,15 @@ height: auto;
     object-fit: contain;
 }
 
+#gc {
+    width: 1000px;
+    position: relative;
+    left: 190px;
+
+
+
+}
+
 
     img {
     width: 300px;
@@ -905,11 +953,16 @@ p.copyright {color: #ffffff;
 
 
     .row{
-        width: 500px;
-        align-content: left;
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 350px;
+        justify-content: center;
         text-align: left;
         padding-bottom: 0px;
         margin-top: 300px;  
+        position: relative;
+        left: 250px;
     }
 
    .row1 {
@@ -968,15 +1021,16 @@ p.copyright {color: #ffffff;
     }
     
      .button.resume{
-        width: 200px;
+        width: 300px;
+        padding: 27px;
         position: absolute;
-        right: 260px;
-        top: 10px;
+        right: 200px;
+        top: 90px;
     background-color: rgb(255, 255, 255);
     font-weight: 400px;
     color: #5d5b5b;
      text-align: left;
-         border-radius: 21px;
+         border-radius: 28px;
         outline-style:solid; 
         outline-width: thin;
         outline-color: #9c9b9b71;
@@ -986,15 +1040,10 @@ p.copyright {color: #ffffff;
     transition-duration: 1s;
     transition-property: opacity .1;
 }
-    
 
-
-
-
-    .button.resume:hover{
+    .button:hover{
              color: #ffffff;
     padding: 20px;
-   /* From https://css.glass */
 background: rgb(218, 223, 225);
 border-radius: 10px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -1004,15 +1053,35 @@ border: 1px solid rgba(255, 246, 246, 0.29);
      border-radius: 60px;
         outline-style:solid; 
         outline-width: thin;
-        outline-color: #9c9b9b71;
-
+        outline-color: #9c9b9b71;   
         
+    }
+    
+
+
+
+
+    .button.resume:hover{
+             color: #ffffff;
+    padding: 20px;
+background: rgb(218, 223, 225);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.9px);
+-webkit-backdrop-filter: blur(11.9px);
+border: 1px solid rgba(255, 246, 246, 0.29);
+     border-radius: 60px;
+        outline-style:solid; 
+        outline-width: thin;
+        outline-color: #9c9b9b71;   
         
     }
 
    #resume_skills{
     background-color: #ffffff;
-    line-height: 1.8;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.5;
 }
 
    
@@ -1190,6 +1259,3 @@ text-decoration: none;
         font-weight: 400;
 
     }
-
-
-
