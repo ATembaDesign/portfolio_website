@@ -263,8 +263,7 @@ body{
 
 #gc {
     width: 350px;
-    position: relative;
-   top: 0px;
+ 
 
 
 
@@ -542,12 +541,13 @@ p.copyright {color: #000000;
 }
 
 
-    .scrolltotop{
+    .scrolltotop {
     width: 48px;
     animation-name: appear;
     animation-timeline: scroll(y);
     position: fixed;
     padding-left: 150px;
+    color: #0e3aea;
     padding-top: 400px;
     padding-right: 20px;
 }
